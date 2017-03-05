@@ -1,0 +1,75 @@
+﻿@model IEnumerable<FGMS.Models.Medicine>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.medicineName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.recomendedUsages)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.recomendedDosage)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.recomendedMethodDelivery)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.amountAvailable)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.expirationDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sideEfects)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Farm.FarmName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.medicineName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.recomendedUsages)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.recomendedDosage)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.recomendedMethodDelivery)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.amountAvailable)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.expirationDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sideEfects)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Farm.FarmName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.medicineId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.medicineId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.medicineId })
+        </td>
+    </tr>
+}
+
+</table>

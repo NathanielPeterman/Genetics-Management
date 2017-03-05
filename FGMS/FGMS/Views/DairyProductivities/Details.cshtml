@@ -1,0 +1,58 @@
+﻿@model FGMS.Models.DairyProductivity
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>DairyProductivity</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.volumeProduced)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.volumeProduced)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dateProduced)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dateProduced)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.butterFatContent)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.butterFatContent)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.amountFeedFed)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.amountFeedFed)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Animal.species)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Animal.species)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.dProductivityId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

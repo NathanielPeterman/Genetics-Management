@@ -1,0 +1,153 @@
+﻿@model IEnumerable<FGMS.Models.Animal>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.species)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.breed)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.birthDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.gender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.birthWeight)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.hornType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PatternDiscription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.earType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CurrentWeight)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.famachaScore)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.numFreshenings)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.registrationNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rFIDNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TagNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.scrapieNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.leftEarTatoo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rightEarTatoo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.animalName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.isDeceased)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Animal2.species)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Animal3.species)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.species)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.breed)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.birthDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.gender)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.birthWeight)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.hornType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PatternDiscription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.earType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CurrentWeight)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.famachaScore)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.numFreshenings)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.registrationNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.rFIDNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TagNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.scrapieNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.leftEarTatoo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.rightEarTatoo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.animalName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.isDeceased)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Animal2.species)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Animal3.species)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.animalId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.animalId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.animalId })
+        </td>
+    </tr>
+}
+
+</table>

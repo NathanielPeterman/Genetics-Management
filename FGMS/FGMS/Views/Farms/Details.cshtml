@@ -1,0 +1,42 @@
+﻿@model FGMS.Models.Farm
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Farm</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FarmName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FarmName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.acrage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.acrage)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.scrapieFlockId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.scrapieFlockId)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.farmId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

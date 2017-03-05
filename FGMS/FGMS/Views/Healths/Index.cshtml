@@ -1,0 +1,63 @@
+﻿@model IEnumerable<FGMS.Models.Health>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.condition)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.symptoms)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.occurances)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.treatment)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ImunizationId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Animal.species)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.condition)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.symptoms)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.occurances)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.treatment)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ImunizationId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Animal.species)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.healthId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.healthId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.healthId })
+        </td>
+    </tr>
+}
+
+</table>

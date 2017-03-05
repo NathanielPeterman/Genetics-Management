@@ -1,0 +1,88 @@
+﻿@model FGMS.Models.Medicine
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Medicine</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.medicineName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.medicineName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.recomendedUsages)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.recomendedUsages)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.recomendedDosage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.recomendedDosage)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.recomendedMethodDelivery)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.recomendedMethodDelivery)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.amountAvailable)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.amountAvailable)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.expirationDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.expirationDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sideEfects)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sideEfects)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Farm.FarmName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Farm.FarmName)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

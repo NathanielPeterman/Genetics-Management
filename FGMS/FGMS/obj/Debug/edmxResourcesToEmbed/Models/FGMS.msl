@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="petermanModelStoreContainer" CdmEntityContainer="petermanEntities">
+    <EntitySetMapping Name="Animals">
+      <EntityTypeMapping TypeName="petermanModel.Animal">
+        <MappingFragment StoreEntitySet="Animal">
+          <ScalarProperty Name="farmId" ColumnName="farmId" />
+          <ScalarProperty Name="animalId" ColumnName="animalId" />
+          <ScalarProperty Name="species" ColumnName="species" />
+          <ScalarProperty Name="breed" ColumnName="breed" />
+          <ScalarProperty Name="birthDate" ColumnName="birthDate" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="birthWeight" ColumnName="birthWeight" />
+          <ScalarProperty Name="hornType" ColumnName="hornType" />
+          <ScalarProperty Name="PatternDiscription" ColumnName="PatternDiscription" />
+          <ScalarProperty Name="earType" ColumnName="earType" />
+          <ScalarProperty Name="CurrentWeight" ColumnName="CurrentWeight" />
+          <ScalarProperty Name="famachaScore" ColumnName="famachaScore" />
+          <ScalarProperty Name="numFreshenings" ColumnName="numFreshenings" />
+          <ScalarProperty Name="registrationNumber" ColumnName="registrationNumber" />
+          <ScalarProperty Name="rFIDNumber" ColumnName="rFIDNumber" />
+          <ScalarProperty Name="TagNumber" ColumnName="TagNumber" />
+          <ScalarProperty Name="scrapieNumber" ColumnName="scrapieNumber" />
+          <ScalarProperty Name="leftEarTatoo" ColumnName="leftEarTatoo" />
+          <ScalarProperty Name="rightEarTatoo" ColumnName="rightEarTatoo" />
+          <ScalarProperty Name="animalName" ColumnName="animalName" />
+          <ScalarProperty Name="fatherId" ColumnName="fatherId" />
+          <ScalarProperty Name="motherId" ColumnName="motherId" />
+          <ScalarProperty Name="isDeceased" ColumnName="isDeceased" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetRoles">
+      <EntityTypeMapping TypeName="petermanModel.AspNetRole">
+        <MappingFragment StoreEntitySet="AspNetRoles">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserClaims">
+      <EntityTypeMapping TypeName="petermanModel.AspNetUserClaim">
+        <MappingFragment StoreEntitySet="AspNetUserClaims">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ClaimType" ColumnName="ClaimType" />
+          <ScalarProperty Name="ClaimValue" ColumnName="ClaimValue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserLogins">
+      <EntityTypeMapping TypeName="petermanModel.AspNetUserLogin">
+        <MappingFragment StoreEntitySet="AspNetUserLogins">
+          <ScalarProperty Name="LoginProvider" ColumnName="LoginProvider" />
+          <ScalarProperty Name="ProviderKey" ColumnName="ProviderKey" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CharacteristicsScores">
+      <EntityTypeMapping TypeName="petermanModel.CharacteristicsScore">
+        <MappingFragment StoreEntitySet="CharacteristicsScore">
+          <ScalarProperty Name="characteristicsId" ColumnName="characteristicsId" />
+          <ScalarProperty Name="animalId" ColumnName="animalId" />
+          <ScalarProperty Name="strength" ColumnName="strength" />
+          <ScalarProperty Name="stature" ColumnName="stature" />
+          <ScalarProperty Name="Capacity" ColumnName="Capacity" />
+          <ScalarProperty Name="dairyness" ColumnName="dairyness" />
+          <ScalarProperty Name="rumpAngle" ColumnName="rumpAngle" />
+          <ScalarProperty Name="rumpWidth" ColumnName="rumpWidth" />
+          <ScalarProperty Name="rearLegAngulation" ColumnName="rearLegAngulation" />
+          <ScalarProperty Name="foreLegAngulation" ColumnName="foreLegAngulation" />
+          <ScalarProperty Name="foreLegAttachment" ColumnName="foreLegAttachment" />
+          <ScalarProperty Name="EscutionArch" ColumnName="EscutionArch" />
+          <ScalarProperty Name="EscutionHeight" ColumnName="EscutionHeight" />
+          <ScalarProperty Name="medialSuspendoryLigament" ColumnName="medialSuspendoryLigament" />
+          <ScalarProperty Name="uderDepth" ColumnName="uderDepth" />
+          <ScalarProperty Name="teatPlacement" ColumnName="teatPlacement" />
+          <ScalarProperty Name="teatDiameter" ColumnName="teatDiameter" />
+          <ScalarProperty Name="Head" ColumnName="Head" />
+          <ScalarProperty Name="ShoulderAssembly" ColumnName="ShoulderAssembly" />
+          <ScalarProperty Name="LegsFront" ColumnName="LegsFront" />
+          <ScalarProperty Name="LegsRear" ColumnName="LegsRear" />
+          <ScalarProperty Name="Feet" ColumnName="Feet" />
+          <ScalarProperty Name="Pastern" ColumnName="Pastern" />
+          <ScalarProperty Name="Back" ColumnName="Back" />
+          <ScalarProperty Name="UdderTexture" ColumnName="UdderTexture" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="Defects" ColumnName="Defects" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DairyProductivities">
+      <EntityTypeMapping TypeName="petermanModel.DairyProductivity">
+        <MappingFragment StoreEntitySet="DairyProductivity">
+          <ScalarProperty Name="dProductivityId" ColumnName="dProductivityId" />
+          <ScalarProperty Name="animalId" ColumnName="animalId" />
+          <ScalarProperty Name="volumeProduced" ColumnName="volumeProduced" />
+          <ScalarProperty Name="dateProduced" ColumnName="dateProduced" />
+          <ScalarProperty Name="butterFatContent" ColumnName="butterFatContent" />
+          <ScalarProperty Name="amountFeedFed" ColumnName="amountFeedFed" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Healths">
+      <EntityTypeMapping TypeName="petermanModel.Health">
+        <MappingFragment StoreEntitySet="Health">
+          <ScalarProperty Name="healthId" ColumnName="healthId" />
+          <ScalarProperty Name="AnimalId" ColumnName="AnimalId" />
+          <ScalarProperty Name="condition" ColumnName="condition" />
+          <ScalarProperty Name="symptoms" ColumnName="symptoms" />
+          <ScalarProperty Name="occurances" ColumnName="occurances" />
+          <ScalarProperty Name="treatment" ColumnName="treatment" />
+          <ScalarProperty Name="ImunizationId" ColumnName="ImunizationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ImunizationRecords">
+      <EntityTypeMapping TypeName="petermanModel.ImunizationRecord">
+        <MappingFragment StoreEntitySet="ImunizationRecord">
+          <ScalarProperty Name="ImunizationId" ColumnName="ImunizationId" />
+          <ScalarProperty Name="animalId" ColumnName="animalId" />
+          <ScalarProperty Name="medicineId" ColumnName="medicineId" />
+          <ScalarProperty Name="ImunizationType" ColumnName="ImunizationType" />
+          <ScalarProperty Name="booster" ColumnName="booster" />
+          <ScalarProperty Name="reasonAdministered" ColumnName="reasonAdministered" />
+          <ScalarProperty Name="dosageGiven" ColumnName="dosageGiven" />
+          <ScalarProperty Name="MethodOfDelivery" ColumnName="MethodOfDelivery" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Medicines">
+      <EntityTypeMapping TypeName="petermanModel.Medicine">
+        <MappingFragment StoreEntitySet="Medicines">
+          <ScalarProperty Name="medicineId" ColumnName="medicineId" />
+          <ScalarProperty Name="medicineName" ColumnName="medicineName" />
+          <ScalarProperty Name="recomendedUsages" ColumnName="recomendedUsages" />
+          <ScalarProperty Name="recomendedDosage" ColumnName="recomendedDosage" />
+          <ScalarProperty Name="recomendedMethodDelivery" ColumnName="recomendedMethodDelivery" />
+          <ScalarProperty Name="amountAvailable" ColumnName="amountAvailable" />
+          <ScalarProperty Name="expirationDate" ColumnName="expirationDate" />
+          <ScalarProperty Name="sideEfects" ColumnName="sideEfects" />
+          <ScalarProperty Name="farmId" ColumnName="farmId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestRecords">
+      <EntityTypeMapping TypeName="petermanModel.TestRecord">
+        <MappingFragment StoreEntitySet="TestRecord">
+          <ScalarProperty Name="testId" ColumnName="testId" />
+          <ScalarProperty Name="testName" ColumnName="testName" />
+          <ScalarProperty Name="testType" ColumnName="testType" />
+          <ScalarProperty Name="ImportantInfo" ColumnName="ImportantInfo" />
+          <ScalarProperty Name="TestResults" ColumnName="TestResults" />
+          <ScalarProperty Name="healthId" ColumnName="healthId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="Usp_CreateFarm_Address_Payment_Subscription" FunctionName="petermanModel.Store.Usp_CreateFarm_Address_Payment_Subscription" />
+    <FunctionImportMapping FunctionImportName="usp_CreateFarmAdddress" FunctionName="petermanModel.Store.usp_CreateFarmAdddress" />
+    <FunctionImportMapping FunctionImportName="usp_CreateFarmPayment" FunctionName="petermanModel.Store.usp_CreateFarmPayment" />
+    <EntitySetMapping Name="farm_Subscription">
+      <EntityTypeMapping TypeName="petermanModel.farm_Subscription">
+        <MappingFragment StoreEntitySet="farm_Subscription">
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="farmId" ColumnName="farmId" />
+          <ScalarProperty Name="subscriptionId" ColumnName="subscriptionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Addresses">
+      <EntityTypeMapping TypeName="petermanModel.Address">
+        <MappingFragment StoreEntitySet="Address">
+          <ScalarProperty Name="farmId" ColumnName="farmId" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Street" ColumnName="Street" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Addressid" ColumnName="Addressid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Farms">
+      <EntityTypeMapping TypeName="petermanModel.Farm">
+        <MappingFragment StoreEntitySet="Farm">
+          <ScalarProperty Name="scrapieFlockId" ColumnName="scrapieFlockId" />
+          <ScalarProperty Name="acrage" ColumnName="acrage" />
+          <ScalarProperty Name="FarmName" ColumnName="FarmName" />
+          <ScalarProperty Name="farmId" ColumnName="farmId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Payments">
+      <EntityTypeMapping TypeName="petermanModel.Payment">
+        <MappingFragment StoreEntitySet="Payment">
+          <ScalarProperty Name="farmId" ColumnName="farmId" />
+          <ScalarProperty Name="zip" ColumnName="zip" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Street" ColumnName="Street" />
+          <ScalarProperty Name="cvn" ColumnName="cvn" />
+          <ScalarProperty Name="CardNumber" ColumnName="CardNumber" />
+          <ScalarProperty Name="CardType" ColumnName="CardType" />
+          <ScalarProperty Name="cardHolderName" ColumnName="cardHolderName" />
+          <ScalarProperty Name="paymentId" ColumnName="paymentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="usp_GetFarmIdByFarmName" FunctionName="petermanModel.Store.usp_GetFarmIdByFarmName" />
+    <EntitySetMapping Name="AspNetUsers">
+      <EntityTypeMapping TypeName="petermanModel.AspNetUser">
+        <MappingFragment StoreEntitySet="AspNetUsers">
+          <ScalarProperty Name="FarmId" ColumnName="FarmId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+          <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+          <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+          <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+          <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="AspNetUserRoles" TypeName="petermanModel.AspNetUserRoles" StoreEntitySet="AspNetUserRoles">
+      <EndProperty Name="AspNetUser">
+        <ScalarProperty Name="Id" ColumnName="UserId" />
+      </EndProperty>
+      <EndProperty Name="AspNetRole">
+        <ScalarProperty Name="Id" ColumnName="RoleId" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

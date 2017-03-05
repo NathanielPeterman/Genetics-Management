@@ -1,0 +1,26 @@
+﻿﻿@model Microsoft.AspNet.Identity.EntityFramework.IdentityRole
+@{
+    ViewBag.Title = "Add a User to a Role";
+}
+<h2>Add a to a User Role:</h2>
+
+@using (Html.BeginForm())
+
+{
+    <p> Select User :</p>
+    <div class="form-group">
+        @Html.Label("user Role", new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.DropDownList("UserNames", (SelectList)ViewBag.Name, " ")
+        </div>
+    </div>
+    <p> Select User Role :</p>
+
+    <div class="form-group">
+        @Html.Label("user Role", new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.DropDownList("UserRoles", (SelectList)ViewBag.Name, " ")
+        </div>
+    </div>
+
+}

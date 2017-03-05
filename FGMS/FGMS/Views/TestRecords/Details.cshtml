@@ -1,0 +1,58 @@
+﻿@model FGMS.Models.TestRecord
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>TestRecord</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.testName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.testName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.testType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.testType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImportantInfo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImportantInfo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TestResults)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TestResults)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Health.condition)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Health.condition)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.testId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

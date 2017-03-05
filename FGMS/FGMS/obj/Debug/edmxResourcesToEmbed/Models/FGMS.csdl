@@ -1,0 +1,598 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="petermanModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Animal">
+    <Key>
+      <PropertyRef Name="animalId" />
+    </Key>
+    <Property Name="animalId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="species" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="breed" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="birthDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="gender" Type="String" MaxLength="6" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="birthWeight" Type="Int32" Nullable="false" />
+    <Property Name="hornType" Type="String" MaxLength="9" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="PatternDiscription" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="earType" Type="String" MaxLength="9" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CurrentWeight" Type="Int32" Nullable="false" />
+    <Property Name="famachaScore" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="numFreshenings" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="registrationNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="rFIDNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TagNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="scrapieNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="leftEarTatoo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="rightEarTatoo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="animalName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="fatherId" Type="Int32" Nullable="false" />
+    <Property Name="motherId" Type="Int32" Nullable="false" />
+    <Property Name="isDeceased" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Animal1" Relationship="Self.FK_Animal_Animal" FromRole="Animal" ToRole="Animal1" />
+    <NavigationProperty Name="Animal2" Relationship="Self.FK_Animal_Animal" FromRole="Animal1" ToRole="Animal" />
+    <NavigationProperty Name="Animal11" Relationship="Self.FK_Animal_Animal1" FromRole="Animal" ToRole="Animal1" />
+    <NavigationProperty Name="Animal3" Relationship="Self.FK_Animal_Animal1" FromRole="Animal1" ToRole="Animal" />
+    <NavigationProperty Name="CharacteristicsScores" Relationship="Self.FK_CharacteristicsScore_Animal" FromRole="Animal" ToRole="CharacteristicsScore" />
+    <NavigationProperty Name="DairyProductivities" Relationship="Self.FK_DairyProductivity_Animal" FromRole="Animal" ToRole="DairyProductivity" />
+    <NavigationProperty Name="Healths" Relationship="Self.FK_Health_Animal" FromRole="Animal" ToRole="Health" />
+    <NavigationProperty Name="ImunizationRecords" Relationship="Self.FK_ImunizationRecord_Animal" FromRole="Animal" ToRole="ImunizationRecord" />
+    <Property Name="farmId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Farm" Relationship="petermanModel.FK_Animal_Farm" FromRole="Animal" ToRole="Farm" />
+  </EntityType>
+  <EntityType Name="AspNetRole">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="AspNetUsers" Relationship="petermanModel.AspNetUserRoles" FromRole="AspNetRole" ToRole="AspNetUser" />
+  </EntityType>
+  <EntityType Name="AspNetUserClaim">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ClaimType" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ClaimValue" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="AspNetUser" Relationship="petermanModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" FromRole="AspNetUserClaim" ToRole="AspNetUser" />
+  </EntityType>
+  <EntityType Name="AspNetUserLogin">
+    <Key>
+      <PropertyRef Name="LoginProvider" />
+      <PropertyRef Name="ProviderKey" />
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="LoginProvider" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ProviderKey" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserId" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="AspNetUser" Relationship="petermanModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" FromRole="AspNetUserLogin" ToRole="AspNetUser" />
+  </EntityType>
+  <EntityType Name="CharacteristicsScore">
+    <Key>
+      <PropertyRef Name="characteristicsId" />
+    </Key>
+    <Property Name="characteristicsId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="animalId" Type="Int32" Nullable="false" />
+    <Property Name="strength" Type="Int32" Nullable="false" />
+    <Property Name="stature" Type="Int32" Nullable="false" />
+    <Property Name="Capacity" Type="Int32" Nullable="false" />
+    <Property Name="dairyness" Type="Int32" Nullable="false" />
+    <Property Name="rumpAngle" Type="Int32" Nullable="false" />
+    <Property Name="rumpWidth" Type="Int32" Nullable="false" />
+    <Property Name="rearLegAngulation" Type="Int32" Nullable="false" />
+    <Property Name="foreLegAngulation" Type="Int32" Nullable="false" />
+    <Property Name="foreLegAttachment" Type="Int32" Nullable="false" />
+    <Property Name="EscutionArch" Type="Int32" Nullable="false" />
+    <Property Name="EscutionHeight" Type="Int32" Nullable="false" />
+    <Property Name="medialSuspendoryLigament" Type="Int32" Nullable="false" />
+    <Property Name="uderDepth" Type="Int32" Nullable="false" />
+    <Property Name="teatPlacement" Type="Int32" Nullable="false" />
+    <Property Name="teatDiameter" Type="Int32" Nullable="false" />
+    <Property Name="Head" Type="Int32" Nullable="false" />
+    <Property Name="ShoulderAssembly" Type="Int32" Nullable="false" />
+    <Property Name="LegsFront" Type="Int32" Nullable="false" />
+    <Property Name="LegsRear" Type="Int32" Nullable="false" />
+    <Property Name="Feet" Type="Int32" Nullable="false" />
+    <Property Name="Pastern" Type="Int32" Nullable="false" />
+    <Property Name="Back" Type="Int32" Nullable="false" />
+    <Property Name="UdderTexture" Type="Int32" Nullable="false" />
+    <Property Name="Remarks" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Defects" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Animal" Relationship="Self.FK_CharacteristicsScore_Animal" FromRole="CharacteristicsScore" ToRole="Animal" />
+  </EntityType>
+  <EntityType Name="DairyProductivity">
+    <Key>
+      <PropertyRef Name="dProductivityId" />
+    </Key>
+    <Property Name="dProductivityId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="animalId" Type="Int32" Nullable="false" />
+    <Property Name="volumeProduced" Type="Int32" Nullable="false" />
+    <Property Name="dateProduced" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="butterFatContent" Type="Double" />
+    <Property Name="amountFeedFed" Type="Double" />
+    <NavigationProperty Name="Animal" Relationship="Self.FK_DairyProductivity_Animal" FromRole="DairyProductivity" ToRole="Animal" />
+  </EntityType>
+  <EntityType Name="Health">
+    <Key>
+      <PropertyRef Name="healthId" />
+    </Key>
+    <Property Name="healthId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AnimalId" Type="Int32" />
+    <Property Name="condition" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="symptoms" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="occurances" Type="Int32" />
+    <Property Name="treatment" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="ImunizationId" Type="Int32" />
+    <NavigationProperty Name="Animal" Relationship="Self.FK_Health_Animal" FromRole="Health" ToRole="Animal" />
+    <NavigationProperty Name="TestRecords" Relationship="Self.FK_TestRecord_Health" FromRole="Health" ToRole="TestRecord" />
+    <NavigationProperty Name="ImunizationRecord" Relationship="petermanModel.FK_Health_ImunizationRecord" FromRole="Health" ToRole="ImunizationRecord" />
+  </EntityType>
+  <EntityType Name="ImunizationRecord">
+    <Key>
+      <PropertyRef Name="ImunizationId" />
+    </Key>
+    <Property Name="ImunizationId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="animalId" Type="Int32" Nullable="false" />
+    <Property Name="medicineId" Type="Int32" Nullable="false" />
+    <Property Name="ImunizationType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="booster" Type="Boolean" Nullable="false" />
+    <Property Name="reasonAdministered" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="dosageGiven" Type="Double" Nullable="false" />
+    <Property Name="MethodOfDelivery" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Animal" Relationship="Self.FK_ImunizationRecord_Animal" FromRole="ImunizationRecord" ToRole="Animal" />
+    <NavigationProperty Name="Medicine" Relationship="Self.FK_ImunizationRecord_Medicines" FromRole="ImunizationRecord" ToRole="Medicines" />
+    <NavigationProperty Name="Healths" Relationship="petermanModel.FK_Health_ImunizationRecord" FromRole="ImunizationRecord" ToRole="Health" />
+  </EntityType>
+  <EntityType Name="Medicine">
+    <Key>
+      <PropertyRef Name="medicineId" />
+    </Key>
+    <Property Name="medicineId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="medicineName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="recomendedUsages" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="recomendedDosage" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="recomendedMethodDelivery" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="amountAvailable" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="expirationDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="sideEfects" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="farmId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="ImunizationRecords" Relationship="Self.FK_ImunizationRecord_Medicines" FromRole="Medicines" ToRole="ImunizationRecord" />
+    <NavigationProperty Name="Farm" Relationship="petermanModel.FK_Medicines_Farm" FromRole="Medicine" ToRole="Farm" />
+  </EntityType>
+  <EntityType Name="TestRecord">
+    <Key>
+      <PropertyRef Name="testId" />
+    </Key>
+    <Property Name="testId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="testName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="testType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ImportantInfo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TestResults" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="healthId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Health" Relationship="Self.FK_TestRecord_Health" FromRole="TestRecord" ToRole="Health" />
+  </EntityType>
+  <Association Name="FK_Animal_Animal">
+    <End Role="Animal" Type="Self.Animal" Multiplicity="1" />
+    <End Role="Animal1" Type="Self.Animal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Animal">
+        <PropertyRef Name="animalId" />
+      </Principal>
+      <Dependent Role="Animal1">
+        <PropertyRef Name="fatherId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Animal_Animal1">
+    <End Role="Animal" Type="Self.Animal" Multiplicity="1" />
+    <End Role="Animal1" Type="Self.Animal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Animal">
+        <PropertyRef Name="animalId" />
+      </Principal>
+      <Dependent Role="Animal1">
+        <PropertyRef Name="motherId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CharacteristicsScore_Animal">
+    <End Role="Animal" Type="Self.Animal" Multiplicity="1" />
+    <End Role="CharacteristicsScore" Type="Self.CharacteristicsScore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Animal">
+        <PropertyRef Name="animalId" />
+      </Principal>
+      <Dependent Role="CharacteristicsScore">
+        <PropertyRef Name="animalId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DairyProductivity_Animal">
+    <End Role="Animal" Type="Self.Animal" Multiplicity="1" />
+    <End Role="DairyProductivity" Type="Self.DairyProductivity" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Animal">
+        <PropertyRef Name="animalId" />
+      </Principal>
+      <Dependent Role="DairyProductivity">
+        <PropertyRef Name="animalId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Health_Animal">
+    <End Role="Animal" Type="Self.Animal" Multiplicity="0..1" />
+    <End Role="Health" Type="Self.Health" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Animal">
+        <PropertyRef Name="animalId" />
+      </Principal>
+      <Dependent Role="Health">
+        <PropertyRef Name="AnimalId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ImunizationRecord_Animal">
+    <End Role="Animal" Type="Self.Animal" Multiplicity="1" />
+    <End Role="ImunizationRecord" Type="Self.ImunizationRecord" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Animal">
+        <PropertyRef Name="animalId" />
+      </Principal>
+      <Dependent Role="ImunizationRecord">
+        <PropertyRef Name="animalId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TestRecord_Health">
+    <End Role="Health" Type="Self.Health" Multiplicity="1" />
+    <End Role="TestRecord" Type="Self.TestRecord" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Health">
+        <PropertyRef Name="healthId" />
+      </Principal>
+      <Dependent Role="TestRecord">
+        <PropertyRef Name="healthId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ImunizationRecord_Medicines">
+    <End Role="Medicines" Type="Self.Medicine" Multiplicity="1" />
+    <End Role="ImunizationRecord" Type="Self.ImunizationRecord" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Medicines">
+        <PropertyRef Name="medicineId" />
+      </Principal>
+      <Dependent Role="ImunizationRecord">
+        <PropertyRef Name="medicineId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="petermanEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Animals" EntityType="Self.Animal" />
+    <EntitySet Name="AspNetRoles" EntityType="Self.AspNetRole" />
+    <EntitySet Name="AspNetUserClaims" EntityType="Self.AspNetUserClaim" />
+    <EntitySet Name="AspNetUserLogins" EntityType="Self.AspNetUserLogin" />
+    <EntitySet Name="CharacteristicsScores" EntityType="Self.CharacteristicsScore" />
+    <EntitySet Name="DairyProductivities" EntityType="Self.DairyProductivity" />
+    <EntitySet Name="Healths" EntityType="Self.Health" />
+    <EntitySet Name="ImunizationRecords" EntityType="Self.ImunizationRecord" />
+    <EntitySet Name="Medicines" EntityType="Self.Medicine" />
+    <EntitySet Name="TestRecords" EntityType="Self.TestRecord" />
+    <AssociationSet Name="FK_Animal_Animal" Association="Self.FK_Animal_Animal">
+      <End Role="Animal" EntitySet="Animals" />
+      <End Role="Animal1" EntitySet="Animals" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Animal_Animal1" Association="Self.FK_Animal_Animal1">
+      <End Role="Animal" EntitySet="Animals" />
+      <End Role="Animal1" EntitySet="Animals" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CharacteristicsScore_Animal" Association="Self.FK_CharacteristicsScore_Animal">
+      <End Role="Animal" EntitySet="Animals" />
+      <End Role="CharacteristicsScore" EntitySet="CharacteristicsScores" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DairyProductivity_Animal" Association="Self.FK_DairyProductivity_Animal">
+      <End Role="Animal" EntitySet="Animals" />
+      <End Role="DairyProductivity" EntitySet="DairyProductivities" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Health_Animal" Association="Self.FK_Health_Animal">
+      <End Role="Animal" EntitySet="Animals" />
+      <End Role="Health" EntitySet="Healths" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ImunizationRecord_Animal" Association="Self.FK_ImunizationRecord_Animal">
+      <End Role="Animal" EntitySet="Animals" />
+      <End Role="ImunizationRecord" EntitySet="ImunizationRecords" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TestRecord_Health" Association="Self.FK_TestRecord_Health">
+      <End Role="Health" EntitySet="Healths" />
+      <End Role="TestRecord" EntitySet="TestRecords" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ImunizationRecord_Medicines" Association="Self.FK_ImunizationRecord_Medicines">
+      <End Role="Medicines" EntitySet="Medicines" />
+      <End Role="ImunizationRecord" EntitySet="ImunizationRecords" />
+    </AssociationSet>
+    <FunctionImport Name="Usp_CreateFarm_Address_Payment_Subscription">
+      <Parameter Name="AddressId" Mode="In" Type="Int32" />
+      <Parameter Name="LastName" Mode="In" Type="String" />
+      <Parameter Name="FirstName" Mode="In" Type="String" />
+      <Parameter Name="Street" Mode="In" Type="String" />
+      <Parameter Name="City" Mode="In" Type="String" />
+      <Parameter Name="State" Mode="In" Type="String" />
+      <Parameter Name="Zip" Mode="In" Type="String" />
+      <Parameter Name="FarmId" Mode="In" Type="Int32" />
+      <Parameter Name="FarmName" Mode="In" Type="String" />
+      <Parameter Name="acerage" Mode="In" Type="Double" />
+      <Parameter Name="scrapieFlockId" Mode="In" Type="String" />
+      <Parameter Name="paymentId" Mode="In" Type="Int32" />
+      <Parameter Name="CardHolderName" Mode="In" Type="String" />
+      <Parameter Name="CardType" Mode="In" Type="String" />
+      <Parameter Name="cardNumber" Mode="In" Type="String" />
+      <Parameter Name="cvn" Mode="In" Type="String" />
+      <Parameter Name="pStreet" Mode="In" Type="String" />
+      <Parameter Name="pCity" Mode="In" Type="String" />
+      <Parameter Name="pState" Mode="In" Type="String" />
+      <Parameter Name="pZip" Mode="In" Type="String" />
+      <Parameter Name="OperatorId" Mode="In" Type="String" />
+      <Parameter Name="StartDate" Mode="In" Type="DateTime" />
+      <Parameter Name="EndDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="usp_CreateFarmAdddress">
+      <Parameter Name="farmId" Mode="In" Type="Int32" />
+      <Parameter Name="AddressId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_CreateFarmPayment">
+      <Parameter Name="farmId" Mode="In" Type="Int32" />
+      <Parameter Name="PaymentId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <AssociationSet Name="FK_Health_ImunizationRecord" Association="petermanModel.FK_Health_ImunizationRecord">
+      <End Role="ImunizationRecord" EntitySet="ImunizationRecords" />
+      <End Role="Health" EntitySet="Healths" />
+    </AssociationSet>
+    <EntitySet Name="farm_Subscription" EntityType="petermanModel.farm_Subscription" />
+    <EntitySet Name="Addresses" EntityType="petermanModel.Address" />
+    <EntitySet Name="Farms" EntityType="petermanModel.Farm" />
+    <EntitySet Name="Payments" EntityType="petermanModel.Payment" />
+    <AssociationSet Name="FK_Address_Farm" Association="petermanModel.FK_Address_Farm">
+      <End Role="Farm" EntitySet="Farms" />
+      <End Role="Address" EntitySet="Addresses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Animal_Farm" Association="petermanModel.FK_Animal_Farm">
+      <End Role="Farm" EntitySet="Farms" />
+      <End Role="Animal" EntitySet="Animals" />
+    </AssociationSet>
+    <AssociationSet Name="FK_farm_Subscription_Farm1" Association="petermanModel.FK_farm_Subscription_Farm1">
+      <End Role="Farm" EntitySet="Farms" />
+      <End Role="farm_Subscription" EntitySet="farm_Subscription" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Medicines_Farm" Association="petermanModel.FK_Medicines_Farm">
+      <End Role="Farm" EntitySet="Farms" />
+      <End Role="Medicine" EntitySet="Medicines" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Payment_Farm" Association="petermanModel.FK_Payment_Farm">
+      <End Role="Farm" EntitySet="Farms" />
+      <End Role="Payment" EntitySet="Payments" />
+    </AssociationSet>
+    <FunctionImport Name="getFarmIdByFarmName" ReturnType="Collection(Int32)">
+      <Parameter Name="Farmname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_GetFarmIdByFarmName" ReturnType="Collection(Int32)">
+      <Parameter Name="FarmName" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="AspNetUsers" EntityType="petermanModel.AspNetUser" />
+    <AssociationSet Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" Association="petermanModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserClaim" EntitySet="AspNetUserClaims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" Association="petermanModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserLogin" EntitySet="AspNetUserLogins" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AspNetUsers_Farm" Association="petermanModel.FK_AspNetUsers_Farm">
+      <End Role="Farm" EntitySet="Farms" />
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+    </AssociationSet>
+    <AssociationSet Name="AspNetUserRoles" Association="petermanModel.AspNetUserRoles">
+      <End Role="AspNetRole" EntitySet="AspNetRoles" />
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="FK_Health_ImunizationRecord">
+    <End Type="petermanModel.ImunizationRecord" Role="ImunizationRecord" Multiplicity="0..1" />
+    <End Type="petermanModel.Health" Role="Health" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ImunizationRecord">
+        <PropertyRef Name="ImunizationId" />
+      </Principal>
+      <Dependent Role="Health">
+        <PropertyRef Name="ImunizationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="farm_Subscription">
+    <Key>
+      <PropertyRef Name="subscriptionId" />
+    </Key>
+    <Property Name="subscriptionId" Type="Int32" Nullable="false" />
+    <Property Name="farmId" Type="Int32" Nullable="false" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="EndDate" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="Farm" Relationship="petermanModel.FK_farm_Subscription_Farm1" FromRole="farm_Subscription" ToRole="Farm" />
+  </EntityType>
+  <EntityType Name="Address">
+    <Key>
+      <PropertyRef Name="Addressid" />
+    </Key>
+    <Property Name="Addressid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="FirstName" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="Street" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="City" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="State" Type="String" Nullable="false" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="Zip" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="farmId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Farm" Relationship="petermanModel.FK_Address_Farm" FromRole="Address" ToRole="Farm" />
+  </EntityType>
+  <EntityType Name="Farm">
+    <Key>
+      <PropertyRef Name="farmId" />
+    </Key>
+    <Property Name="farmId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FarmName" Type="String" Nullable="false" MaxLength="75" FixedLength="false" Unicode="false" />
+    <Property Name="acrage" Type="Double" Nullable="false" />
+    <Property Name="scrapieFlockId" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Addresses" Relationship="petermanModel.FK_Address_Farm" FromRole="Farm" ToRole="Address" />
+    <NavigationProperty Name="Animals" Relationship="petermanModel.FK_Animal_Farm" FromRole="Farm" ToRole="Animal" />
+    <NavigationProperty Name="farm_Subscription" Relationship="petermanModel.FK_farm_Subscription_Farm1" FromRole="Farm" ToRole="farm_Subscription" />
+    <NavigationProperty Name="Medicines" Relationship="petermanModel.FK_Medicines_Farm" FromRole="Farm" ToRole="Medicine" />
+    <NavigationProperty Name="Payments" Relationship="petermanModel.FK_Payment_Farm" FromRole="Farm" ToRole="Payment" />
+    <NavigationProperty Name="AspNetUsers" Relationship="petermanModel.FK_AspNetUsers_Farm" FromRole="Farm" ToRole="AspNetUser" />
+  </EntityType>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="paymentId" />
+    </Key>
+    <Property Name="paymentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cardHolderName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CardType" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="CardNumber" Type="String" Nullable="false" MaxLength="16" FixedLength="true" Unicode="false" />
+    <Property Name="cvn" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="Street" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="City" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="state" Type="String" Nullable="false" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="zip" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="farmId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Farm" Relationship="petermanModel.FK_Payment_Farm" FromRole="Payment" ToRole="Farm" />
+  </EntityType>
+  <Association Name="FK_Address_Farm">
+    <End Type="petermanModel.Farm" Role="Farm" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="petermanModel.Address" Role="Address" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Farm">
+        <PropertyRef Name="farmId" />
+      </Principal>
+      <Dependent Role="Address">
+        <PropertyRef Name="farmId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Animal_Farm">
+    <End Type="petermanModel.Farm" Role="Farm" Multiplicity="1" />
+    <End Type="petermanModel.Animal" Role="Animal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Farm">
+        <PropertyRef Name="farmId" />
+      </Principal>
+      <Dependent Role="Animal">
+        <PropertyRef Name="farmId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_farm_Subscription_Farm1">
+    <End Type="petermanModel.Farm" Role="Farm" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="petermanModel.farm_Subscription" Role="farm_Subscription" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Farm">
+        <PropertyRef Name="farmId" />
+      </Principal>
+      <Dependent Role="farm_Subscription">
+        <PropertyRef Name="farmId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Medicines_Farm">
+    <End Type="petermanModel.Farm" Role="Farm" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="petermanModel.Medicine" Role="Medicine" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Farm">
+        <PropertyRef Name="farmId" />
+      </Principal>
+      <Dependent Role="Medicine">
+        <PropertyRef Name="farmId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Payment_Farm">
+    <End Type="petermanModel.Farm" Role="Farm" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="petermanModel.Payment" Role="Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Farm">
+        <PropertyRef Name="farmId" />
+      </Principal>
+      <Dependent Role="Payment">
+        <PropertyRef Name="farmId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="AspNetUser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="EmailConfirmed" Type="Boolean" />
+    <Property Name="PasswordHash" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SecurityStamp" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumberConfirmed" Type="Boolean" Nullable="false" />
+    <Property Name="TwoFactorEnabled" Type="Boolean" Nullable="false" />
+    <Property Name="LockoutEndDateUtc" Type="DateTime" Precision="3" />
+    <Property Name="LockoutEnabled" Type="Boolean" Nullable="false" />
+    <Property Name="AccessFailedCount" Type="Int32" Nullable="false" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="FarmId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="AspNetUserClaims" Relationship="petermanModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" FromRole="AspNetUser" ToRole="AspNetUserClaim" />
+    <NavigationProperty Name="AspNetUserLogins" Relationship="petermanModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" FromRole="AspNetUser" ToRole="AspNetUserLogin" />
+    <NavigationProperty Name="Farm" Relationship="petermanModel.FK_AspNetUsers_Farm" FromRole="AspNetUser" ToRole="Farm" />
+    <NavigationProperty Name="AspNetRoles" Relationship="petermanModel.AspNetUserRoles" FromRole="AspNetUser" ToRole="AspNetRole" />
+  </EntityType>
+  <Association Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+    <End Type="petermanModel.AspNetUser" Role="AspNetUser" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="petermanModel.AspNetUserClaim" Role="AspNetUserClaim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserClaim">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+    <End Type="petermanModel.AspNetUser" Role="AspNetUser" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="petermanModel.AspNetUserLogin" Role="AspNetUserLogin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserLogin">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AspNetUsers_Farm">
+    <End Type="petermanModel.Farm" Role="Farm" Multiplicity="1" />
+    <End Type="petermanModel.AspNetUser" Role="AspNetUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Farm">
+        <PropertyRef Name="farmId" />
+      </Principal>
+      <Dependent Role="AspNetUser">
+        <PropertyRef Name="FarmId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AspNetUserRoles">
+    <End Type="petermanModel.AspNetRole" Role="AspNetRole" Multiplicity="*" />
+    <End Type="petermanModel.AspNetUser" Role="AspNetUser" Multiplicity="*" />
+  </Association>
+</Schema>

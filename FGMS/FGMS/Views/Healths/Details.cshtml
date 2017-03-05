@@ -1,0 +1,66 @@
+﻿@model FGMS.Models.Health
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Health</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.condition)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.condition)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.symptoms)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.symptoms)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.occurances)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.occurances)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.treatment)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.treatment)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImunizationId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImunizationId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Animal.species)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Animal.species)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.healthId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,186 @@
+﻿@model FGMS.Models.Animal
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Animal</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.species)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.species)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.breed)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.breed)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.birthDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.birthDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.gender)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.gender)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.birthWeight)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.birthWeight)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.hornType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.hornType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PatternDiscription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PatternDiscription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.earType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.earType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CurrentWeight)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CurrentWeight)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.famachaScore)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.famachaScore)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.numFreshenings)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.numFreshenings)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.registrationNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.registrationNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.rFIDNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.rFIDNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TagNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TagNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.scrapieNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.scrapieNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.leftEarTatoo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.leftEarTatoo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.rightEarTatoo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.rightEarTatoo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.animalName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.animalName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.isDeceased)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.isDeceased)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Animal2.species)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Animal2.species)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Animal3.species)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Animal3.species)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.animalId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

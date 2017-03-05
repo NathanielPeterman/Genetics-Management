@@ -1,0 +1,280 @@
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\ApplicationInsights.config
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\roslyn\csc.exe
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\roslyn\vbc.exe
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\FGMS.Tests.dll.config
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\FGMS.Tests.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\FGMS.Tests.pdb
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\FGMS.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\Newtonsoft.Json.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\System.Web.Helpers.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\System.Web.Mvc.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\System.Web.Razor.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\System.Web.Optimization.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Security.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\Owin.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\EntityFramework.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\FGMS.pdb
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\Newtonsoft.Json.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\System.Web.Helpers.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\System.Web.Mvc.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\System.Web.Razor.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\System.Web.Optimization.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Security.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\EntityFramework.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\obj\Debug\FGMS.Tests.csprojResolveAssemblyReference.cache
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\obj\Debug\FGMS.Tests.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS.Tests\obj\Debug\FGMS.Tests.pdb
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\FGMS.Tests.dll.config
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\FGMS.Tests.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\FGMS.Tests.pdb
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\FGMS.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\Owin.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\EntityFramework.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\FGMS.pdb
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\EntityFramework.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\obj\Debug\FGMS.Tests.csprojResolveAssemblyReference.cache
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\obj\Debug\FGMS.Tests.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS.Tests\obj\Debug\FGMS.Tests.pdb
+D:\FGMS\FGMS.Tests\bin\Debug\ApplicationInsights.config
+D:\FGMS\FGMS.Tests\bin\Debug\roslyn\csc.exe
+D:\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+D:\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+D:\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+D:\FGMS\FGMS.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+D:\FGMS\FGMS.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+D:\FGMS\FGMS.Tests\bin\Debug\roslyn\vbc.exe
+D:\FGMS\FGMS.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+D:\FGMS\FGMS.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+D:\FGMS\FGMS.Tests\bin\Debug\FGMS.Tests.dll.config
+D:\FGMS\FGMS.Tests\bin\Debug\FGMS.Tests.dll
+D:\FGMS\FGMS.Tests\bin\Debug\FGMS.Tests.pdb
+D:\FGMS\FGMS.Tests\bin\Debug\FGMS.dll
+D:\FGMS\FGMS.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\FGMS\FGMS.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\FGMS\FGMS.Tests\bin\Debug\System.Web.Helpers.dll
+D:\FGMS\FGMS.Tests\bin\Debug\System.Web.Mvc.dll
+D:\FGMS\FGMS.Tests\bin\Debug\System.Web.Razor.dll
+D:\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.dll
+D:\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.dll
+D:\FGMS\FGMS.Tests\bin\Debug\System.Web.Optimization.dll
+D:\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Security.dll
+D:\FGMS\FGMS.Tests\bin\Debug\Owin.dll
+D:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\FGMS\FGMS.Tests\bin\Debug\EntityFramework.dll
+D:\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\FGMS\FGMS.Tests\bin\Debug\FGMS.pdb
+D:\FGMS\FGMS.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\FGMS\FGMS.Tests\bin\Debug\System.Web.Helpers.xml
+D:\FGMS\FGMS.Tests\bin\Debug\System.Web.Mvc.xml
+D:\FGMS\FGMS.Tests\bin\Debug\System.Web.Razor.xml
+D:\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.xml
+D:\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.xml
+D:\FGMS\FGMS.Tests\bin\Debug\System.Web.Optimization.xml
+D:\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Security.xml
+D:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\FGMS\FGMS.Tests\bin\Debug\EntityFramework.xml
+D:\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\FGMS\FGMS.Tests\obj\Debug\FGMS.Tests.csprojResolveAssemblyReference.cache
+D:\FGMS\FGMS.Tests\obj\Debug\FGMS.Tests.dll
+D:\FGMS\FGMS.Tests\obj\Debug\FGMS.Tests.pdb
+E:\FGMS\FGMS.Tests\bin\Debug\ApplicationInsights.config
+E:\FGMS\FGMS.Tests\bin\Debug\roslyn\csc.exe
+E:\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+E:\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+E:\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+E:\FGMS\FGMS.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+E:\FGMS\FGMS.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+E:\FGMS\FGMS.Tests\bin\Debug\roslyn\vbc.exe
+E:\FGMS\FGMS.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+E:\FGMS\FGMS.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+E:\FGMS\FGMS.Tests\bin\Debug\FGMS.Tests.dll.config
+E:\FGMS\FGMS.Tests\bin\Debug\FGMS.Tests.dll
+E:\FGMS\FGMS.Tests\bin\Debug\FGMS.Tests.pdb
+E:\FGMS\FGMS.Tests\bin\Debug\FGMS.dll
+E:\FGMS\FGMS.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\FGMS\FGMS.Tests\bin\Debug\Newtonsoft.Json.dll
+E:\FGMS\FGMS.Tests\bin\Debug\System.Web.Helpers.dll
+E:\FGMS\FGMS.Tests\bin\Debug\System.Web.Mvc.dll
+E:\FGMS\FGMS.Tests\bin\Debug\System.Web.Razor.dll
+E:\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.dll
+E:\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+E:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.dll
+E:\FGMS\FGMS.Tests\bin\Debug\System.Web.Optimization.dll
+E:\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+E:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Security.dll
+E:\FGMS\FGMS.Tests\bin\Debug\Owin.dll
+E:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+E:\FGMS\FGMS.Tests\bin\Debug\EntityFramework.dll
+E:\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+E:\FGMS\FGMS.Tests\bin\Debug\FGMS.pdb
+E:\FGMS\FGMS.Tests\bin\Debug\Newtonsoft.Json.xml
+E:\FGMS\FGMS.Tests\bin\Debug\System.Web.Helpers.xml
+E:\FGMS\FGMS.Tests\bin\Debug\System.Web.Mvc.xml
+E:\FGMS\FGMS.Tests\bin\Debug\System.Web.Razor.xml
+E:\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.xml
+E:\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+E:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.xml
+E:\FGMS\FGMS.Tests\bin\Debug\System.Web.Optimization.xml
+E:\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+E:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Security.xml
+E:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+E:\FGMS\FGMS.Tests\bin\Debug\EntityFramework.xml
+E:\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+E:\FGMS\FGMS.Tests\obj\Debug\FGMS.Tests.csprojResolveAssemblyReference.cache
+E:\FGMS\FGMS.Tests\obj\Debug\FGMS.Tests.dll
+E:\FGMS\FGMS.Tests\obj\Debug\FGMS.Tests.pdb
+G:\FGMS\FGMS.Tests\bin\Debug\ApplicationInsights.config
+G:\FGMS\FGMS.Tests\bin\Debug\roslyn\csc.exe
+G:\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+G:\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+G:\FGMS\FGMS.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+G:\FGMS\FGMS.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+G:\FGMS\FGMS.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+G:\FGMS\FGMS.Tests\bin\Debug\roslyn\vbc.exe
+G:\FGMS\FGMS.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+G:\FGMS\FGMS.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+G:\FGMS\FGMS.Tests\bin\Debug\FGMS.Tests.dll.config
+G:\FGMS\FGMS.Tests\bin\Debug\FGMS.Tests.dll
+G:\FGMS\FGMS.Tests\bin\Debug\FGMS.Tests.pdb
+G:\FGMS\FGMS.Tests\bin\Debug\FGMS.dll
+G:\FGMS\FGMS.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+G:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+G:\FGMS\FGMS.Tests\bin\Debug\Newtonsoft.Json.dll
+G:\FGMS\FGMS.Tests\bin\Debug\System.Web.Helpers.dll
+G:\FGMS\FGMS.Tests\bin\Debug\System.Web.Mvc.dll
+G:\FGMS\FGMS.Tests\bin\Debug\System.Web.Razor.dll
+G:\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+G:\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.dll
+G:\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+G:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.dll
+G:\FGMS\FGMS.Tests\bin\Debug\System.Web.Optimization.dll
+G:\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+G:\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+G:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Security.dll
+G:\FGMS\FGMS.Tests\bin\Debug\Owin.dll
+G:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+G:\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\FGMS\FGMS.Tests\bin\Debug\EntityFramework.dll
+G:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+G:\FGMS\FGMS.Tests\bin\Debug\FGMS.pdb
+G:\FGMS\FGMS.Tests\bin\Debug\Newtonsoft.Json.xml
+G:\FGMS\FGMS.Tests\bin\Debug\System.Web.Helpers.xml
+G:\FGMS\FGMS.Tests\bin\Debug\System.Web.Mvc.xml
+G:\FGMS\FGMS.Tests\bin\Debug\System.Web.Razor.xml
+G:\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.xml
+G:\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+G:\FGMS\FGMS.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+G:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.xml
+G:\FGMS\FGMS.Tests\bin\Debug\System.Web.Optimization.xml
+G:\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+G:\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+G:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Security.xml
+G:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+G:\FGMS\FGMS.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\FGMS\FGMS.Tests\bin\Debug\EntityFramework.xml
+G:\FGMS\FGMS.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+G:\FGMS\FGMS.Tests\obj\Debug\FGMS.Tests.csprojResolveAssemblyReference.cache
+G:\FGMS\FGMS.Tests\obj\Debug\FGMS.Tests.dll
+G:\FGMS\FGMS.Tests\obj\Debug\FGMS.Tests.pdb

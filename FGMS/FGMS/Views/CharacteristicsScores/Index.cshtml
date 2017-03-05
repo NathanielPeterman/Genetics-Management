@@ -1,0 +1,183 @@
+﻿@model IEnumerable<FGMS.Models.CharacteristicsScore>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.strength)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.stature)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Capacity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dairyness)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rumpAngle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rumpWidth)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rearLegAngulation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.foreLegAngulation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.foreLegAttachment)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EscutionArch)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EscutionHeight)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.medialSuspendoryLigament)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.uderDepth)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.teatPlacement)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.teatDiameter)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Head)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ShoulderAssembly)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LegsFront)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LegsRear)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Feet)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pastern)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Back)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UdderTexture)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Remarks)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Defects)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Animal.species)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.strength)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.stature)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Capacity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dairyness)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.rumpAngle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.rumpWidth)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.rearLegAngulation)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.foreLegAngulation)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.foreLegAttachment)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EscutionArch)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EscutionHeight)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.medialSuspendoryLigament)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.uderDepth)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.teatPlacement)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.teatDiameter)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Head)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ShoulderAssembly)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LegsFront)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LegsRear)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Feet)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pastern)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Back)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UdderTexture)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Remarks)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Defects)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Animal.species)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.characteristicsId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.characteristicsId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.characteristicsId })
+        </td>
+    </tr>
+}
+
+</table>

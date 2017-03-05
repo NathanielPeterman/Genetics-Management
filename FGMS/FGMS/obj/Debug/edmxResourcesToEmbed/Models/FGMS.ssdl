@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="petermanModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Address">
+    <Key>
+      <PropertyRef Name="Addressid" />
+    </Key>
+    <Property Name="Addressid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LastName" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="Street" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="City" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="State" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="Zip" Type="char" MaxLength="5" Nullable="false" />
+    <Property Name="farmId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Animal">
+    <Key>
+      <PropertyRef Name="animalId" />
+    </Key>
+    <Property Name="animalId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="species" Type="char" MaxLength="10" />
+    <Property Name="breed" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="birthDate" Type="date" Nullable="false" />
+    <Property Name="gender" Type="char" MaxLength="6" Nullable="false" />
+    <Property Name="birthWeight" Type="int" Nullable="false" />
+    <Property Name="hornType" Type="char" MaxLength="9" Nullable="false" />
+    <Property Name="PatternDiscription" Type="varchar" MaxLength="70" Nullable="false" />
+    <Property Name="earType" Type="varchar" MaxLength="9" Nullable="false" />
+    <Property Name="CurrentWeight" Type="int" Nullable="false" />
+    <Property Name="famachaScore" Type="char" MaxLength="1" />
+    <Property Name="numFreshenings" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="registrationNumber" Type="varchar" MaxLength="20" />
+    <Property Name="rFIDNumber" Type="varchar" MaxLength="20" />
+    <Property Name="TagNumber" Type="varchar" MaxLength="20" />
+    <Property Name="scrapieNumber" Type="varchar" MaxLength="20" />
+    <Property Name="leftEarTatoo" Type="varchar" MaxLength="20" />
+    <Property Name="rightEarTatoo" Type="varchar" MaxLength="20" />
+    <Property Name="animalName" Type="varchar" MaxLength="30" />
+    <Property Name="fatherId" Type="int" Nullable="false" />
+    <Property Name="motherId" Type="int" Nullable="false" />
+    <Property Name="isDeceased" Type="bit" Nullable="false" />
+    <Property Name="farmId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetRoles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="256" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUserClaims">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ClaimType" Type="nvarchar(max)" />
+    <Property Name="ClaimValue" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="AspNetUserLogins">
+    <Key>
+      <PropertyRef Name="LoginProvider" />
+      <PropertyRef Name="ProviderKey" />
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="LoginProvider" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ProviderKey" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUserRoles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="RoleId" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="256" Nullable="false" />
+    <Property Name="EmailConfirmed" Type="bit" />
+    <Property Name="PasswordHash" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="SecurityStamp" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="PhoneNumber" Type="nvarchar(max)" />
+    <Property Name="PhoneNumberConfirmed" Type="bit" Nullable="false" />
+    <Property Name="TwoFactorEnabled" Type="bit" Nullable="false" />
+    <Property Name="LockoutEndDateUtc" Type="datetime" />
+    <Property Name="LockoutEnabled" Type="bit" Nullable="false" />
+    <Property Name="AccessFailedCount" Type="int" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="256" Nullable="false" />
+    <Property Name="FarmId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CharacteristicsScore">
+    <Key>
+      <PropertyRef Name="characteristicsId" />
+    </Key>
+    <Property Name="characteristicsId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="animalId" Type="int" Nullable="false" />
+    <Property Name="strength" Type="int" Nullable="false" />
+    <Property Name="stature" Type="int" Nullable="false" />
+    <Property Name="Capacity" Type="int" Nullable="false" />
+    <Property Name="dairyness" Type="int" Nullable="false" />
+    <Property Name="rumpAngle" Type="int" Nullable="false" />
+    <Property Name="rumpWidth" Type="int" Nullable="false" />
+    <Property Name="rearLegAngulation" Type="int" Nullable="false" />
+    <Property Name="foreLegAngulation" Type="int" Nullable="false" />
+    <Property Name="foreLegAttachment" Type="int" Nullable="false" />
+    <Property Name="EscutionArch" Type="int" Nullable="false" />
+    <Property Name="EscutionHeight" Type="int" Nullable="false" />
+    <Property Name="medialSuspendoryLigament" Type="int" Nullable="false" />
+    <Property Name="uderDepth" Type="int" Nullable="false" />
+    <Property Name="teatPlacement" Type="int" Nullable="false" />
+    <Property Name="teatDiameter" Type="int" Nullable="false" />
+    <Property Name="Head" Type="int" Nullable="false" />
+    <Property Name="ShoulderAssembly" Type="int" Nullable="false" />
+    <Property Name="LegsFront" Type="int" Nullable="false" />
+    <Property Name="LegsRear" Type="int" Nullable="false" />
+    <Property Name="Feet" Type="int" Nullable="false" />
+    <Property Name="Pastern" Type="int" Nullable="false" />
+    <Property Name="Back" Type="int" Nullable="false" />
+    <Property Name="UdderTexture" Type="int" Nullable="false" />
+    <Property Name="Remarks" Type="varchar(max)" Nullable="false" />
+    <Property Name="Defects" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DairyProductivity">
+    <Key>
+      <PropertyRef Name="dProductivityId" />
+    </Key>
+    <Property Name="dProductivityId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="animalId" Type="int" Nullable="false" />
+    <Property Name="volumeProduced" Type="int" Nullable="false" />
+    <Property Name="dateProduced" Type="date" Nullable="false" />
+    <Property Name="butterFatContent" Type="float" />
+    <Property Name="amountFeedFed" Type="float" />
+  </EntityType>
+  <EntityType Name="Farm">
+    <Key>
+      <PropertyRef Name="farmId" />
+    </Key>
+    <Property Name="farmId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FarmName" Type="varchar" MaxLength="75" Nullable="false" />
+    <Property Name="acrage" Type="float" Nullable="false" />
+    <Property Name="scrapieFlockId" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="farm_Subscription">
+    <Key>
+      <PropertyRef Name="subscriptionId" />
+    </Key>
+    <Property Name="subscriptionId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="farmId" Type="int" Nullable="false" />
+    <Property Name="StartDate" Type="date" Nullable="false" />
+    <Property Name="EndDate" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Health">
+    <Key>
+      <PropertyRef Name="healthId" />
+    </Key>
+    <Property Name="healthId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AnimalId" Type="int" />
+    <Property Name="condition" Type="varchar" MaxLength="255" />
+    <Property Name="symptoms" Type="varchar" MaxLength="255" />
+    <Property Name="occurances" Type="int" />
+    <Property Name="treatment" Type="varchar" MaxLength="255" />
+    <Property Name="ImunizationId" Type="int" />
+  </EntityType>
+  <EntityType Name="ImunizationRecord">
+    <Key>
+      <PropertyRef Name="ImunizationId" />
+    </Key>
+    <Property Name="ImunizationId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="animalId" Type="int" Nullable="false" />
+    <Property Name="medicineId" Type="int" Nullable="false" />
+    <Property Name="ImunizationType" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="booster" Type="bit" Nullable="false" />
+    <Property Name="reasonAdministered" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="dosageGiven" Type="float" Nullable="false" />
+    <Property Name="MethodOfDelivery" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Medicines">
+    <Key>
+      <PropertyRef Name="medicineId" />
+    </Key>
+    <Property Name="medicineId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="medicineName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="recomendedUsages" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="recomendedDosage" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="recomendedMethodDelivery" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="amountAvailable" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="expirationDate" Type="date" Nullable="false" />
+    <Property Name="sideEfects" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="farmId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="paymentId" />
+    </Key>
+    <Property Name="paymentId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="cardHolderName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CardType" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="CardNumber" Type="char" MaxLength="16" Nullable="false" />
+    <Property Name="cvn" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="Street" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="City" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="state" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="zip" Type="char" MaxLength="5" Nullable="false" />
+    <Property Name="farmId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TestRecord">
+    <Key>
+      <PropertyRef Name="testId" />
+    </Key>
+    <Property Name="testId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="testName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="testType" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ImportantInfo" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="TestResults" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="healthId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Address_Farm">
+    <End Role="Farm" Type="Self.Farm" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Address" Type="Self.Address" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Farm">
+        <PropertyRef Name="farmId" />
+      </Principal>
+      <Dependent Role="Address">
+        <PropertyRef Name="farmId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Animal_Animal">
+    <End Role="Animal" Type="Self.Animal" Multiplicity="1" />
+    <End Role="Animal1" Type="Self.Animal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Animal">
+        <PropertyRef Name="animalId" />
+      </Principal>
+      <Dependent Role="Animal1">
+        <PropertyRef Name="fatherId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Animal_Animal1">
+    <End Role="Animal" Type="Self.Animal" Multiplicity="1" />
+    <End Role="Animal1" Type="Self.Animal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Animal">
+        <PropertyRef Name="animalId" />
+      </Principal>
+      <Dependent Role="Animal1">
+        <PropertyRef Name="motherId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Animal_Farm">
+    <End Role="Farm" Type="Self.Farm" Multiplicity="1" />
+    <End Role="Animal" Type="Self.Animal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Farm">
+        <PropertyRef Name="farmId" />
+      </Principal>
+      <Dependent Role="Animal">
+        <PropertyRef Name="farmId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AspNetUsers_Farm">
+    <End Role="Farm" Type="Self.Farm" Multiplicity="1" />
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Farm">
+        <PropertyRef Name="farmId" />
+      </Principal>
+      <Dependent Role="AspNetUsers">
+        <PropertyRef Name="FarmId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CharacteristicsScore_Animal">
+    <End Role="Animal" Type="Self.Animal" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="CharacteristicsScore" Type="Self.CharacteristicsScore" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Animal">
+        <PropertyRef Name="animalId" />
+      </Principal>
+      <Dependent Role="CharacteristicsScore">
+        <PropertyRef Name="animalId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DairyProductivity_Animal">
+    <End Role="Animal" Type="Self.Animal" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="DairyProductivity" Type="Self.DairyProductivity" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Animal">
+        <PropertyRef Name="animalId" />
+      </Principal>
+      <Dependent Role="DairyProductivity">
+        <PropertyRef Name="animalId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserClaims" Type="Self.AspNetUserClaims" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserClaims">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserLogins" Type="Self.AspNetUserLogins" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserLogins">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+    <End Role="AspNetRoles" Type="Self.AspNetRoles" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetRoles">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_farm_Subscription_Farm1">
+    <End Role="Farm" Type="Self.Farm" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="farm_Subscription" Type="Self.farm_Subscription" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Farm">
+        <PropertyRef Name="farmId" />
+      </Principal>
+      <Dependent Role="farm_Subscription">
+        <PropertyRef Name="farmId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Health_ImunizationRecord">
+    <End Role="ImunizationRecord" Type="Self.ImunizationRecord" Multiplicity="0..1" />
+    <End Role="Health" Type="Self.Health" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ImunizationRecord">
+        <PropertyRef Name="ImunizationId" />
+      </Principal>
+      <Dependent Role="Health">
+        <PropertyRef Name="ImunizationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ImunizationRecord_Medicines">
+    <End Role="Medicines" Type="Self.Medicines" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ImunizationRecord" Type="Self.ImunizationRecord" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Medicines">
+        <PropertyRef Name="medicineId" />
+      </Principal>
+      <Dependent Role="ImunizationRecord">
+        <PropertyRef Name="medicineId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Medicines_Farm">
+    <End Role="Farm" Type="Self.Farm" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Medicines" Type="Self.Medicines" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Farm">
+        <PropertyRef Name="farmId" />
+      </Principal>
+      <Dependent Role="Medicines">
+        <PropertyRef Name="farmId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Payment_Farm">
+    <End Role="Farm" Type="Self.Farm" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Payment" Type="Self.Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Farm">
+        <PropertyRef Name="farmId" />
+      </Principal>
+      <Dependent Role="Payment">
+        <PropertyRef Name="farmId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TestRecord_Health">
+    <End Role="Health" Type="Self.Health" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="TestRecord" Type="Self.TestRecord" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Health">
+        <PropertyRef Name="healthId" />
+      </Principal>
+      <Dependent Role="TestRecord">
+        <PropertyRef Name="healthId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="Usp_CreateFarm_Address_Payment_Subscription" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="AddressId" Type="int" Mode="In" />
+    <Parameter Name="LastName" Type="varchar" Mode="In" />
+    <Parameter Name="FirstName" Type="varchar" Mode="In" />
+    <Parameter Name="Street" Type="varchar" Mode="In" />
+    <Parameter Name="City" Type="varchar" Mode="In" />
+    <Parameter Name="State" Type="char" Mode="In" />
+    <Parameter Name="Zip" Type="char" Mode="In" />
+    <Parameter Name="FarmId" Type="int" Mode="In" />
+    <Parameter Name="FarmName" Type="varchar" Mode="In" />
+    <Parameter Name="acerage" Type="float" Mode="In" />
+    <Parameter Name="scrapieFlockId" Type="varchar" Mode="In" />
+    <Parameter Name="paymentId" Type="int" Mode="In" />
+    <Parameter Name="CardHolderName" Type="varchar" Mode="In" />
+    <Parameter Name="CardType" Type="varchar" Mode="In" />
+    <Parameter Name="cardNumber" Type="char" Mode="In" />
+    <Parameter Name="cvn" Type="char" Mode="In" />
+    <Parameter Name="pStreet" Type="varchar" Mode="In" />
+    <Parameter Name="pCity" Type="varchar" Mode="In" />
+    <Parameter Name="pState" Type="char" Mode="In" />
+    <Parameter Name="pZip" Type="char" Mode="In" />
+    <Parameter Name="OperatorId" Type="nvarchar" Mode="In" />
+    <Parameter Name="StartDate" Type="date" Mode="In" />
+    <Parameter Name="EndDate" Type="date" Mode="In" />
+  </Function>
+  <Function Name="usp_CreateFarmAdddress" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="farmId" Type="int" Mode="In" />
+    <Parameter Name="AddressId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="usp_CreateFarmPayment" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="farmId" Type="int" Mode="In" />
+    <Parameter Name="PaymentId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="usp_GetFarmIdByFarmName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="FarmName" Type="varchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="petermanModelStoreContainer">
+    <EntitySet Name="Address" EntityType="Self.Address" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Animal" EntityType="Self.Animal" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetRoles" EntityType="Self.AspNetRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserClaims" EntityType="Self.AspNetUserClaims" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserLogins" EntityType="Self.AspNetUserLogins" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserRoles" EntityType="Self.AspNetUserRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUsers" EntityType="Self.AspNetUsers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CharacteristicsScore" EntityType="Self.CharacteristicsScore" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DairyProductivity" EntityType="Self.DairyProductivity" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Farm" EntityType="Self.Farm" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="farm_Subscription" EntityType="Self.farm_Subscription" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Health" EntityType="Self.Health" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ImunizationRecord" EntityType="Self.ImunizationRecord" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Medicines" EntityType="Self.Medicines" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Payment" EntityType="Self.Payment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TestRecord" EntityType="Self.TestRecord" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Address_Farm" Association="Self.FK_Address_Farm">
+      <End Role="Farm" EntitySet="Farm" />
+      <End Role="Address" EntitySet="Address" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Animal_Animal" Association="Self.FK_Animal_Animal">
+      <End Role="Animal" EntitySet="Animal" />
+      <End Role="Animal1" EntitySet="Animal" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Animal_Animal1" Association="Self.FK_Animal_Animal1">
+      <End Role="Animal" EntitySet="Animal" />
+      <End Role="Animal1" EntitySet="Animal" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Animal_Farm" Association="Self.FK_Animal_Farm">
+      <End Role="Farm" EntitySet="Farm" />
+      <End Role="Animal" EntitySet="Animal" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AspNetUsers_Farm" Association="Self.FK_AspNetUsers_Farm">
+      <End Role="Farm" EntitySet="Farm" />
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CharacteristicsScore_Animal" Association="Self.FK_CharacteristicsScore_Animal">
+      <End Role="Animal" EntitySet="Animal" />
+      <End Role="CharacteristicsScore" EntitySet="CharacteristicsScore" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DairyProductivity_Animal" Association="Self.FK_DairyProductivity_Animal">
+      <End Role="Animal" EntitySet="Animal" />
+      <End Role="DairyProductivity" EntitySet="DairyProductivity" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserClaims" EntitySet="AspNetUserClaims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserLogins" EntitySet="AspNetUserLogins" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+      <End Role="AspNetRoles" EntitySet="AspNetRoles" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_farm_Subscription_Farm1" Association="Self.FK_farm_Subscription_Farm1">
+      <End Role="Farm" EntitySet="Farm" />
+      <End Role="farm_Subscription" EntitySet="farm_Subscription" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Health_ImunizationRecord" Association="Self.FK_Health_ImunizationRecord">
+      <End Role="ImunizationRecord" EntitySet="ImunizationRecord" />
+      <End Role="Health" EntitySet="Health" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ImunizationRecord_Medicines" Association="Self.FK_ImunizationRecord_Medicines">
+      <End Role="Medicines" EntitySet="Medicines" />
+      <End Role="ImunizationRecord" EntitySet="ImunizationRecord" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Medicines_Farm" Association="Self.FK_Medicines_Farm">
+      <End Role="Farm" EntitySet="Farm" />
+      <End Role="Medicines" EntitySet="Medicines" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Payment_Farm" Association="Self.FK_Payment_Farm">
+      <End Role="Farm" EntitySet="Farm" />
+      <End Role="Payment" EntitySet="Payment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TestRecord_Health" Association="Self.FK_TestRecord_Health">
+      <End Role="Health" EntitySet="Health" />
+      <End Role="TestRecord" EntitySet="TestRecord" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

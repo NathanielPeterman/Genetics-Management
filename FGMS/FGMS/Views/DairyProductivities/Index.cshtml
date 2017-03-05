@@ -1,0 +1,57 @@
+﻿@model IEnumerable<FGMS.Models.DairyProductivity>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.volumeProduced)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dateProduced)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.butterFatContent)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.amountFeedFed)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Animal.species)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.volumeProduced)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dateProduced)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.butterFatContent)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.amountFeedFed)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Animal.species)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.dProductivityId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.dProductivityId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.dProductivityId })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,410 @@
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\ApplicationInsights.config
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\roslyn\csc.exe
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\roslyn\System.Collections.Immutable.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\roslyn\vbc.exe
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\roslyn\VBCSCompiler.exe
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\roslyn\VBCSCompiler.exe.config
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\FGMS.dll.config
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\FGMS.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\FGMS.pdb
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Antlr3.Runtime.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\EntityFramework.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\EntityFramework.SqlServer.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.AI.Web.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.AI.WindowsServer.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.ApplicationInsights.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.Owin.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.Owin.Security.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.Owin.Security.Google.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.Web.Infrastructure.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Newtonsoft.Json.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Owin.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\System.Web.Helpers.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\System.Web.Mvc.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\System.Web.Optimization.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\System.Web.Razor.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\System.Web.WebPages.Deployment.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\System.Web.WebPages.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\System.Web.WebPages.Razor.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\WebGrease.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.AI.Web.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.AI.WindowsServer.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.ApplicationInsights.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\System.Web.Helpers.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\System.Web.Mvc.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\System.Web.Optimization.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\System.Web.Razor.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\System.Web.WebPages.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\System.Web.WebPages.Deployment.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\System.Web.WebPages.Razor.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Antlr3.Runtime.pdb
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Newtonsoft.Json.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\EntityFramework.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\EntityFramework.SqlServer.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.Owin.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.Owin.Security.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.Owin.Security.Google.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\obj\Debug\FGMS.csprojResolveAssemblyReference.cache
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\obj\Debug\FGMS.dll
+c:\users\school-pc\documents\visual studio 2015\Projects\FGMS\FGMS\obj\Debug\FGMS.pdb
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\ApplicationInsights.config
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\roslyn\csc.exe
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\roslyn\vbc.exe
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\roslyn\VBCSCompiler.exe
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\FGMS.dll.config
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\FGMS.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\FGMS.pdb
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Antlr3.Runtime.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\EntityFramework.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\EntityFramework.SqlServer.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.AI.Web.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.ApplicationInsights.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.Owin.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.Owin.Security.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Newtonsoft.Json.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Owin.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\System.Web.Helpers.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\System.Web.Mvc.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\System.Web.Optimization.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\System.Web.Razor.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\System.Web.WebPages.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\WebGrease.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.AI.Web.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.ApplicationInsights.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\System.Web.Helpers.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\System.Web.Mvc.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\System.Web.Optimization.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\System.Web.Razor.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\System.Web.WebPages.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Antlr3.Runtime.pdb
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Newtonsoft.Json.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\EntityFramework.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\EntityFramework.SqlServer.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.Owin.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.Owin.Security.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\obj\Debug\FGMS.csprojResolveAssemblyReference.cache
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\obj\Debug\FGMS.dll
+C:\Users\School-Pc\Documents\Visual Studio 2015\Projects\Spring2017\FGMS\FGMS\obj\Debug\FGMS.pdb
+D:\FGMS\FGMS\obj\Debug\FGMS.csprojResolveAssemblyReference.cache
+D:\FGMS\FGMS\obj\Debug\FGMS.dll
+D:\FGMS\FGMS\obj\Debug\FGMS.pdb
+D:\FGMS\FGMS\bin\ApplicationInsights.config
+D:\FGMS\FGMS\bin\roslyn\csc.exe
+D:\FGMS\FGMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\FGMS\FGMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\FGMS\FGMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\FGMS\FGMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\FGMS\FGMS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\FGMS\FGMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\FGMS\FGMS\bin\roslyn\System.Collections.Immutable.dll
+D:\FGMS\FGMS\bin\roslyn\System.Reflection.Metadata.dll
+D:\FGMS\FGMS\bin\roslyn\vbc.exe
+D:\FGMS\FGMS\bin\roslyn\VBCSCompiler.exe
+D:\FGMS\FGMS\bin\roslyn\VBCSCompiler.exe.config
+D:\FGMS\FGMS\bin\FGMS.dll.config
+D:\FGMS\FGMS\bin\FGMS.dll
+D:\FGMS\FGMS\bin\FGMS.pdb
+D:\FGMS\FGMS\bin\Antlr3.Runtime.dll
+D:\FGMS\FGMS\bin\EntityFramework.dll
+D:\FGMS\FGMS\bin\EntityFramework.SqlServer.dll
+D:\FGMS\FGMS\bin\Microsoft.AI.Agent.Intercept.dll
+D:\FGMS\FGMS\bin\Microsoft.AI.DependencyCollector.dll
+D:\FGMS\FGMS\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\FGMS\FGMS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\FGMS\FGMS\bin\Microsoft.AI.Web.dll
+D:\FGMS\FGMS\bin\Microsoft.AI.WindowsServer.dll
+D:\FGMS\FGMS\bin\Microsoft.ApplicationInsights.dll
+D:\FGMS\FGMS\bin\Microsoft.AspNet.Identity.Core.dll
+D:\FGMS\FGMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\FGMS\FGMS\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\FGMS\FGMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\FGMS\FGMS\bin\Microsoft.Owin.dll
+D:\FGMS\FGMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\FGMS\FGMS\bin\Microsoft.Owin.Security.Cookies.dll
+D:\FGMS\FGMS\bin\Microsoft.Owin.Security.dll
+D:\FGMS\FGMS\bin\Microsoft.Owin.Security.Facebook.dll
+D:\FGMS\FGMS\bin\Microsoft.Owin.Security.Google.dll
+D:\FGMS\FGMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\FGMS\FGMS\bin\Microsoft.Owin.Security.OAuth.dll
+D:\FGMS\FGMS\bin\Microsoft.Owin.Security.Twitter.dll
+D:\FGMS\FGMS\bin\Microsoft.Web.Infrastructure.dll
+D:\FGMS\FGMS\bin\Newtonsoft.Json.dll
+D:\FGMS\FGMS\bin\Owin.dll
+D:\FGMS\FGMS\bin\System.Web.Helpers.dll
+D:\FGMS\FGMS\bin\System.Web.Mvc.dll
+D:\FGMS\FGMS\bin\System.Web.Optimization.dll
+D:\FGMS\FGMS\bin\System.Web.Razor.dll
+D:\FGMS\FGMS\bin\System.Web.WebPages.Deployment.dll
+D:\FGMS\FGMS\bin\System.Web.WebPages.dll
+D:\FGMS\FGMS\bin\System.Web.WebPages.Razor.dll
+D:\FGMS\FGMS\bin\WebGrease.dll
+D:\FGMS\FGMS\bin\Microsoft.AI.DependencyCollector.xml
+D:\FGMS\FGMS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\FGMS\FGMS\bin\Microsoft.AI.Web.xml
+D:\FGMS\FGMS\bin\Microsoft.AI.WindowsServer.xml
+D:\FGMS\FGMS\bin\Microsoft.ApplicationInsights.xml
+D:\FGMS\FGMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\FGMS\FGMS\bin\System.Web.Helpers.xml
+D:\FGMS\FGMS\bin\System.Web.Mvc.xml
+D:\FGMS\FGMS\bin\System.Web.Optimization.xml
+D:\FGMS\FGMS\bin\System.Web.Razor.xml
+D:\FGMS\FGMS\bin\System.Web.WebPages.xml
+D:\FGMS\FGMS\bin\System.Web.WebPages.Deployment.xml
+D:\FGMS\FGMS\bin\System.Web.WebPages.Razor.xml
+D:\FGMS\FGMS\bin\Antlr3.Runtime.pdb
+D:\FGMS\FGMS\bin\Newtonsoft.Json.xml
+D:\FGMS\FGMS\bin\EntityFramework.xml
+D:\FGMS\FGMS\bin\EntityFramework.SqlServer.xml
+D:\FGMS\FGMS\bin\Microsoft.AspNet.Identity.Core.xml
+D:\FGMS\FGMS\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\FGMS\FGMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\FGMS\FGMS\bin\Microsoft.Owin.xml
+D:\FGMS\FGMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\FGMS\FGMS\bin\Microsoft.Owin.Security.xml
+D:\FGMS\FGMS\bin\Microsoft.Owin.Security.Facebook.xml
+D:\FGMS\FGMS\bin\Microsoft.Owin.Security.Cookies.xml
+D:\FGMS\FGMS\bin\Microsoft.Owin.Security.OAuth.xml
+D:\FGMS\FGMS\bin\Microsoft.Owin.Security.Google.xml
+D:\FGMS\FGMS\bin\Microsoft.Owin.Security.Twitter.xml
+D:\FGMS\FGMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\FGMS\FGMS\bin\ApplicationInsights.config
+E:\FGMS\FGMS\bin\roslyn\csc.exe
+E:\FGMS\FGMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\FGMS\FGMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\FGMS\FGMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\FGMS\FGMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\FGMS\FGMS\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\FGMS\FGMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\FGMS\FGMS\bin\roslyn\System.Collections.Immutable.dll
+E:\FGMS\FGMS\bin\roslyn\System.Reflection.Metadata.dll
+E:\FGMS\FGMS\bin\roslyn\vbc.exe
+E:\FGMS\FGMS\bin\roslyn\VBCSCompiler.exe
+E:\FGMS\FGMS\bin\roslyn\VBCSCompiler.exe.config
+E:\FGMS\FGMS\bin\FGMS.dll.config
+E:\FGMS\FGMS\bin\FGMS.dll
+E:\FGMS\FGMS\bin\FGMS.pdb
+E:\FGMS\FGMS\bin\Antlr3.Runtime.dll
+E:\FGMS\FGMS\bin\EntityFramework.dll
+E:\FGMS\FGMS\bin\EntityFramework.SqlServer.dll
+E:\FGMS\FGMS\bin\Microsoft.AI.Agent.Intercept.dll
+E:\FGMS\FGMS\bin\Microsoft.AI.DependencyCollector.dll
+E:\FGMS\FGMS\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\FGMS\FGMS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\FGMS\FGMS\bin\Microsoft.AI.Web.dll
+E:\FGMS\FGMS\bin\Microsoft.AI.WindowsServer.dll
+E:\FGMS\FGMS\bin\Microsoft.ApplicationInsights.dll
+E:\FGMS\FGMS\bin\Microsoft.AspNet.Identity.Core.dll
+E:\FGMS\FGMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\FGMS\FGMS\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\FGMS\FGMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\FGMS\FGMS\bin\Microsoft.Owin.dll
+E:\FGMS\FGMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\FGMS\FGMS\bin\Microsoft.Owin.Security.Cookies.dll
+E:\FGMS\FGMS\bin\Microsoft.Owin.Security.dll
+E:\FGMS\FGMS\bin\Microsoft.Owin.Security.Facebook.dll
+E:\FGMS\FGMS\bin\Microsoft.Owin.Security.Google.dll
+E:\FGMS\FGMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\FGMS\FGMS\bin\Microsoft.Owin.Security.OAuth.dll
+E:\FGMS\FGMS\bin\Microsoft.Owin.Security.Twitter.dll
+E:\FGMS\FGMS\bin\Microsoft.Web.Infrastructure.dll
+E:\FGMS\FGMS\bin\Newtonsoft.Json.dll
+E:\FGMS\FGMS\bin\Owin.dll
+E:\FGMS\FGMS\bin\System.Web.Helpers.dll
+E:\FGMS\FGMS\bin\System.Web.Mvc.dll
+E:\FGMS\FGMS\bin\System.Web.Optimization.dll
+E:\FGMS\FGMS\bin\System.Web.Razor.dll
+E:\FGMS\FGMS\bin\System.Web.WebPages.Deployment.dll
+E:\FGMS\FGMS\bin\System.Web.WebPages.dll
+E:\FGMS\FGMS\bin\System.Web.WebPages.Razor.dll
+E:\FGMS\FGMS\bin\WebGrease.dll
+E:\FGMS\FGMS\bin\Microsoft.AI.DependencyCollector.xml
+E:\FGMS\FGMS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\FGMS\FGMS\bin\Microsoft.AI.Web.xml
+E:\FGMS\FGMS\bin\Microsoft.AI.WindowsServer.xml
+E:\FGMS\FGMS\bin\Microsoft.ApplicationInsights.xml
+E:\FGMS\FGMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\FGMS\FGMS\bin\System.Web.Helpers.xml
+E:\FGMS\FGMS\bin\System.Web.Mvc.xml
+E:\FGMS\FGMS\bin\System.Web.Optimization.xml
+E:\FGMS\FGMS\bin\System.Web.Razor.xml
+E:\FGMS\FGMS\bin\System.Web.WebPages.xml
+E:\FGMS\FGMS\bin\System.Web.WebPages.Deployment.xml
+E:\FGMS\FGMS\bin\System.Web.WebPages.Razor.xml
+E:\FGMS\FGMS\bin\Antlr3.Runtime.pdb
+E:\FGMS\FGMS\bin\Newtonsoft.Json.xml
+E:\FGMS\FGMS\bin\EntityFramework.xml
+E:\FGMS\FGMS\bin\EntityFramework.SqlServer.xml
+E:\FGMS\FGMS\bin\Microsoft.AspNet.Identity.Core.xml
+E:\FGMS\FGMS\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\FGMS\FGMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\FGMS\FGMS\bin\Microsoft.Owin.xml
+E:\FGMS\FGMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\FGMS\FGMS\bin\Microsoft.Owin.Security.xml
+E:\FGMS\FGMS\bin\Microsoft.Owin.Security.Facebook.xml
+E:\FGMS\FGMS\bin\Microsoft.Owin.Security.Cookies.xml
+E:\FGMS\FGMS\bin\Microsoft.Owin.Security.OAuth.xml
+E:\FGMS\FGMS\bin\Microsoft.Owin.Security.Google.xml
+E:\FGMS\FGMS\bin\Microsoft.Owin.Security.Twitter.xml
+E:\FGMS\FGMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\FGMS\FGMS\obj\Debug\FGMS.csprojResolveAssemblyReference.cache
+E:\FGMS\FGMS\obj\Debug\FGMS.dll
+E:\FGMS\FGMS\obj\Debug\FGMS.pdb
+G:\FGMS\FGMS\bin\ApplicationInsights.config
+G:\FGMS\FGMS\bin\roslyn\csc.exe
+G:\FGMS\FGMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\FGMS\FGMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\FGMS\FGMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\FGMS\FGMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\FGMS\FGMS\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\FGMS\FGMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\FGMS\FGMS\bin\roslyn\System.Collections.Immutable.dll
+G:\FGMS\FGMS\bin\roslyn\System.Reflection.Metadata.dll
+G:\FGMS\FGMS\bin\roslyn\vbc.exe
+G:\FGMS\FGMS\bin\roslyn\VBCSCompiler.exe
+G:\FGMS\FGMS\bin\roslyn\VBCSCompiler.exe.config
+G:\FGMS\FGMS\bin\FGMS.dll.config
+G:\FGMS\FGMS\bin\FGMS.dll
+G:\FGMS\FGMS\bin\FGMS.pdb
+G:\FGMS\FGMS\bin\Antlr3.Runtime.dll
+G:\FGMS\FGMS\bin\EntityFramework.dll
+G:\FGMS\FGMS\bin\EntityFramework.SqlServer.dll
+G:\FGMS\FGMS\bin\Microsoft.AI.Agent.Intercept.dll
+G:\FGMS\FGMS\bin\Microsoft.AI.DependencyCollector.dll
+G:\FGMS\FGMS\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\FGMS\FGMS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\FGMS\FGMS\bin\Microsoft.AI.Web.dll
+G:\FGMS\FGMS\bin\Microsoft.AI.WindowsServer.dll
+G:\FGMS\FGMS\bin\Microsoft.ApplicationInsights.dll
+G:\FGMS\FGMS\bin\Microsoft.AspNet.Identity.Core.dll
+G:\FGMS\FGMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\FGMS\FGMS\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\FGMS\FGMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\FGMS\FGMS\bin\Microsoft.Owin.dll
+G:\FGMS\FGMS\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\FGMS\FGMS\bin\Microsoft.Owin.Security.Cookies.dll
+G:\FGMS\FGMS\bin\Microsoft.Owin.Security.dll
+G:\FGMS\FGMS\bin\Microsoft.Owin.Security.Facebook.dll
+G:\FGMS\FGMS\bin\Microsoft.Owin.Security.Google.dll
+G:\FGMS\FGMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\FGMS\FGMS\bin\Microsoft.Owin.Security.OAuth.dll
+G:\FGMS\FGMS\bin\Microsoft.Owin.Security.Twitter.dll
+G:\FGMS\FGMS\bin\Microsoft.Web.Infrastructure.dll
+G:\FGMS\FGMS\bin\Newtonsoft.Json.dll
+G:\FGMS\FGMS\bin\Owin.dll
+G:\FGMS\FGMS\bin\System.Web.Helpers.dll
+G:\FGMS\FGMS\bin\System.Web.Mvc.dll
+G:\FGMS\FGMS\bin\System.Web.Optimization.dll
+G:\FGMS\FGMS\bin\System.Web.Razor.dll
+G:\FGMS\FGMS\bin\System.Web.WebPages.Deployment.dll
+G:\FGMS\FGMS\bin\System.Web.WebPages.dll
+G:\FGMS\FGMS\bin\System.Web.WebPages.Razor.dll
+G:\FGMS\FGMS\bin\WebGrease.dll
+G:\FGMS\FGMS\bin\Microsoft.AI.DependencyCollector.xml
+G:\FGMS\FGMS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\FGMS\FGMS\bin\Microsoft.AI.Web.xml
+G:\FGMS\FGMS\bin\Microsoft.AI.WindowsServer.xml
+G:\FGMS\FGMS\bin\Microsoft.ApplicationInsights.xml
+G:\FGMS\FGMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\FGMS\FGMS\bin\System.Web.Helpers.xml
+G:\FGMS\FGMS\bin\System.Web.Mvc.xml
+G:\FGMS\FGMS\bin\System.Web.Optimization.xml
+G:\FGMS\FGMS\bin\System.Web.Razor.xml
+G:\FGMS\FGMS\bin\System.Web.WebPages.xml
+G:\FGMS\FGMS\bin\System.Web.WebPages.Deployment.xml
+G:\FGMS\FGMS\bin\System.Web.WebPages.Razor.xml
+G:\FGMS\FGMS\bin\Antlr3.Runtime.pdb
+G:\FGMS\FGMS\bin\Newtonsoft.Json.xml
+G:\FGMS\FGMS\bin\EntityFramework.xml
+G:\FGMS\FGMS\bin\EntityFramework.SqlServer.xml
+G:\FGMS\FGMS\bin\Microsoft.AspNet.Identity.Core.xml
+G:\FGMS\FGMS\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\FGMS\FGMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\FGMS\FGMS\bin\Microsoft.Owin.xml
+G:\FGMS\FGMS\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\FGMS\FGMS\bin\Microsoft.Owin.Security.xml
+G:\FGMS\FGMS\bin\Microsoft.Owin.Security.Facebook.xml
+G:\FGMS\FGMS\bin\Microsoft.Owin.Security.Cookies.xml
+G:\FGMS\FGMS\bin\Microsoft.Owin.Security.OAuth.xml
+G:\FGMS\FGMS\bin\Microsoft.Owin.Security.Google.xml
+G:\FGMS\FGMS\bin\Microsoft.Owin.Security.Twitter.xml
+G:\FGMS\FGMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\FGMS\FGMS\obj\Debug\FGMS.csprojResolveAssemblyReference.cache
+G:\FGMS\FGMS\obj\Debug\FGMS.dll
+G:\FGMS\FGMS\obj\Debug\FGMS.pdb

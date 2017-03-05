@@ -1,0 +1,74 @@
+﻿@model FGMS.Models.ImunizationRecord
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ImunizationRecord</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ImunizationType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImunizationType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.booster)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.booster)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.reasonAdministered)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.reasonAdministered)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dosageGiven)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dosageGiven)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MethodOfDelivery)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MethodOfDelivery)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Animal.species)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Animal.species)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Medicine.medicineName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Medicine.medicineName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ImunizationId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
