@@ -167,6 +167,7 @@ namespace FGMS.Controllers
                     connection.Close();
 
                     var user = new ApplicationUser { UserName = model.UserName, Email = model.Email, FarmId = farmId };
+                    this.Session["farmId"] = farmId;
                     var result = await UserManager.CreateAsync(user, model.Password);
                     if (result.Succeeded)
                     {
@@ -175,7 +176,7 @@ namespace FGMS.Controllers
                         AddErrors(result);
                         return RedirectToAction("Create", "farm_Subscription");
                     }
-                    return View("Register", "Account");
+                    return View("../Register/Account");
                 }
             }
             // If we got this far, something failed, redisplay form

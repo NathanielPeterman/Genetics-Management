@@ -162,7 +162,7 @@
     <EntitySetMapping Name="farm_Subscription">
       <EntityTypeMapping TypeName="petermanModel.farm_Subscription">
         <MappingFragment StoreEntitySet="farm_Subscription">
-          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="subTypeId" ColumnName="subTypeId" />
           <ScalarProperty Name="StartDate" ColumnName="StartDate" />
           <ScalarProperty Name="farmId" ColumnName="farmId" />
           <ScalarProperty Name="subscriptionId" ColumnName="subscriptionId" />
@@ -237,5 +237,14 @@
         <ScalarProperty Name="Id" ColumnName="RoleId" />
       </EndProperty>
     </AssociationSetMapping>
+    <EntitySetMapping Name="SubscriptionTypes">
+      <EntityTypeMapping TypeName="petermanModel.SubscriptionType">
+        <MappingFragment StoreEntitySet="SubscriptionType">
+          <ScalarProperty Name="subscriptionType1" ColumnName="subscriptionType" />
+          <ScalarProperty Name="subTypeId" ColumnName="subTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="usp_GetFarmIdByUserId" FunctionName="petermanModel.Store.usp_GetFarmIdByUserId" />
   </EntityContainerMapping>
 </Mapping>

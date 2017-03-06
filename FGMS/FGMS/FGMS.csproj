@@ -276,6 +276,9 @@
     <Compile Include="Models\Payment.cs">
       <DependentUpon>FGMS.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\SubscriptionType.cs">
+      <DependentUpon>FGMS.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\TestRecord.cs">
       <DependentUpon>FGMS.tt</DependentUpon>
     </Compile>
@@ -392,11 +395,6 @@
     <Content Include="Views\TestRecords\Details.cshtml" />
     <Content Include="Views\TestRecords\Edit.cshtml" />
     <Content Include="Views\TestRecords\Index.cshtml" />
-    <Content Include="Views\farm_Subscription\Create.cshtml" />
-    <Content Include="Views\farm_Subscription\Delete.cshtml" />
-    <Content Include="Views\farm_Subscription\Details.cshtml" />
-    <Content Include="Views\farm_Subscription\Edit.cshtml" />
-    <Content Include="Views\farm_Subscription\Index.cshtml" />
     <Content Include="Views\Addresses\Create.cshtml" />
     <Content Include="Views\Addresses\Delete.cshtml" />
     <Content Include="Views\Addresses\Details.cshtml" />
@@ -415,6 +413,11 @@
     <Content Include="Views\Admin\Index.cshtml" />
     <Content Include="Views\Admin\Role.cshtml" />
     <Content Include="Views\Admin\Create.cshtml" />
+    <Content Include="Views\farm_Subscription\Create.cshtml" />
+    <Content Include="Views\farm_Subscription\Delete.cshtml" />
+    <Content Include="Views\farm_Subscription\Details.cshtml" />
+    <Content Include="Views\farm_Subscription\Edit.cshtml" />
+    <Content Include="Views\farm_Subscription\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

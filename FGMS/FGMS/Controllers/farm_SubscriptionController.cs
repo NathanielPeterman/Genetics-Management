@@ -17,7 +17,7 @@ namespace FGMS.Controllers
         // GET: farm_Subscription
         public ActionResult Index()
         {
-            var farm_Subscription = db.farm_Subscription.Include(f => f.Farm);
+            var farm_Subscription = db.farm_Subscription.Include(f => f.Farm).Include(f => f.SubscriptionType);
             return View(farm_Subscription.ToList());
         }
 
@@ -40,6 +40,7 @@ namespace FGMS.Controllers
         public ActionResult Create()
         {
             ViewBag.farmId = new SelectList(db.Farms, "farmId", "FarmName");
+            ViewBag.subTypeId = new SelectList(db.SubscriptionTypes, "subTypeId", "subscriptionType1");
             return View();
         }
 
@@ -48,16 +49,20 @@ namespace FGMS.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "subscriptionId,farmId,StartDate,EndDate")] farm_Subscription farm_Subscription)
+        public ActionResult Create([Bind(Include = "subscriptionId,farmId,StartDate,subTypeId")] farm_Subscription farm_Subscription)
         {
+            var farmId = this.Session["farmId"];
+            var StartDate = DateTime.Now;
             if (ModelState.IsValid)
             {
+                farmId = this.Session["farmId"];
                 db.farm_Subscription.Add(farm_Subscription);
                 db.SaveChanges();
-                return RedirectToAction("../Payments/Create");
+                return RedirectToAction("Index");
             }
-
-            ViewBag.farmId = new SelectList(db.Farms, "farmId", "FarmName", farm_Subscription.farmId);
+          
+         //   ViewBag.farmId = new SelectList(db.Farms, "farmId", "FarmName", farm_Subscription.farmId);
+            ViewBag.subTypeId = new SelectList(db.SubscriptionTypes, "subTypeId", "subscriptionType1", farm_Subscription.subTypeId);
             return View(farm_Subscription);
         }
 
@@ -74,6 +79,7 @@ namespace FGMS.Controllers
                 return HttpNotFound();
             }
             ViewBag.farmId = new SelectList(db.Farms, "farmId", "FarmName", farm_Subscription.farmId);
+            ViewBag.subTypeId = new SelectList(db.SubscriptionTypes, "subTypeId", "subscriptionType1", farm_Subscription.subTypeId);
             return View(farm_Subscription);
         }
 
@@ -82,7 +88,7 @@ namespace FGMS.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "subscriptionId,farmId,StartDate,EndDate")] farm_Subscription farm_Subscription)
+        public ActionResult Edit([Bind(Include = "subscriptionId,farmId,StartDate,subTypeId")] farm_Subscription farm_Subscription)
         {
             if (ModelState.IsValid)
             {
@@ -91,6 +97,7 @@ namespace FGMS.Controllers
                 return RedirectToAction("Index");
             }
             ViewBag.farmId = new SelectList(db.Farms, "farmId", "FarmName", farm_Subscription.farmId);
+            ViewBag.subTypeId = new SelectList(db.SubscriptionTypes, "subTypeId", "subscriptionType1", farm_Subscription.subTypeId);
             return View(farm_Subscription);
         }
 

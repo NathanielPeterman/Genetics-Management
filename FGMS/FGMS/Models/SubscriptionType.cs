@@ -12,14 +12,18 @@ namespace FGMS.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class farm_Subscription
+    public partial class SubscriptionType
     {
-        public int subscriptionId { get; set; }
-        public int farmId { get; set; }
-        public System.DateTime StartDate { get; set; }
-        public int subTypeId { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public SubscriptionType()
+        {
+            this.farm_Subscription = new HashSet<farm_Subscription>();
+        }
     
-        public virtual Farm Farm { get; set; }
-        public virtual SubscriptionType SubscriptionType { get; set; }
+        public int subTypeId { get; set; }
+        public string subscriptionType1 { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<farm_Subscription> farm_Subscription { get; set; }
     }
 }

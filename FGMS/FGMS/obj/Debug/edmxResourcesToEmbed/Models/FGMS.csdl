@@ -381,10 +381,6 @@
       <End Role="AspNetUser" EntitySet="AspNetUsers" />
       <End Role="AspNetUserClaim" EntitySet="AspNetUserClaims" />
     </AssociationSet>
-    <AssociationSet Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" Association="petermanModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
-      <End Role="AspNetUser" EntitySet="AspNetUsers" />
-      <End Role="AspNetUserLogin" EntitySet="AspNetUserLogins" />
-    </AssociationSet>
     <AssociationSet Name="FK_AspNetUsers_Farm" Association="petermanModel.FK_AspNetUsers_Farm">
       <End Role="Farm" EntitySet="Farms" />
       <End Role="AspNetUser" EntitySet="AspNetUsers" />
@@ -393,6 +389,18 @@
       <End Role="AspNetRole" EntitySet="AspNetRoles" />
       <End Role="AspNetUser" EntitySet="AspNetUsers" />
     </AssociationSet>
+    <EntitySet Name="SubscriptionTypes" EntityType="petermanModel.SubscriptionType" />
+    <AssociationSet Name="FK_farm_Subscription_SubscriptionType" Association="petermanModel.FK_farm_Subscription_SubscriptionType">
+      <End Role="SubscriptionType" EntitySet="SubscriptionTypes" />
+      <End Role="farm_Subscription" EntitySet="farm_Subscription" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" Association="petermanModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserLogin" EntitySet="AspNetUserLogins" />
+    </AssociationSet>
+    <FunctionImport Name="usp_GetFarmIdByUserId" ReturnType="Collection(Int32)">
+      <Parameter Name="UserId" Mode="In" Type="String" />
+    </FunctionImport>
   </EntityContainer>
   <Association Name="FK_Health_ImunizationRecord">
     <End Type="petermanModel.ImunizationRecord" Role="ImunizationRecord" Multiplicity="0..1" />
@@ -413,8 +421,9 @@
     <Property Name="subscriptionId" Type="Int32" Nullable="false" />
     <Property Name="farmId" Type="Int32" Nullable="false" />
     <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="0" />
-    <Property Name="EndDate" Type="DateTime" Nullable="false" Precision="0" />
     <NavigationProperty Name="Farm" Relationship="petermanModel.FK_farm_Subscription_Farm1" FromRole="farm_Subscription" ToRole="Farm" />
+    <Property Name="subTypeId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="SubscriptionType" Relationship="petermanModel.FK_farm_Subscription_SubscriptionType" FromRole="farm_Subscription" ToRole="SubscriptionType" />
   </EntityType>
   <EntityType Name="Address">
     <Key>
@@ -547,9 +556,9 @@
     <Property Name="UserName" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
     <Property Name="FarmId" Type="Int32" Nullable="false" />
     <NavigationProperty Name="AspNetUserClaims" Relationship="petermanModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" FromRole="AspNetUser" ToRole="AspNetUserClaim" />
-    <NavigationProperty Name="AspNetUserLogins" Relationship="petermanModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" FromRole="AspNetUser" ToRole="AspNetUserLogin" />
     <NavigationProperty Name="Farm" Relationship="petermanModel.FK_AspNetUsers_Farm" FromRole="AspNetUser" ToRole="Farm" />
     <NavigationProperty Name="AspNetRoles" Relationship="petermanModel.AspNetUserRoles" FromRole="AspNetUser" ToRole="AspNetRole" />
+    <NavigationProperty Name="AspNetUserLogins" Relationship="petermanModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" FromRole="AspNetUser" ToRole="AspNetUserLogin" />
   </EntityType>
   <Association Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
     <End Type="petermanModel.AspNetUser" Role="AspNetUser" Multiplicity="1">
@@ -561,20 +570,6 @@
         <PropertyRef Name="Id" />
       </Principal>
       <Dependent Role="AspNetUserClaim">
-        <PropertyRef Name="UserId" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
-    <End Type="petermanModel.AspNetUser" Role="AspNetUser" Multiplicity="1">
-      <OnDelete Action="Cascade" />
-    </End>
-    <End Type="petermanModel.AspNetUserLogin" Role="AspNetUserLogin" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="AspNetUser">
-        <PropertyRef Name="Id" />
-      </Principal>
-      <Dependent Role="AspNetUserLogin">
         <PropertyRef Name="UserId" />
       </Dependent>
     </ReferentialConstraint>
@@ -594,5 +589,39 @@
   <Association Name="AspNetUserRoles">
     <End Type="petermanModel.AspNetRole" Role="AspNetRole" Multiplicity="*" />
     <End Type="petermanModel.AspNetUser" Role="AspNetUser" Multiplicity="*" />
+  </Association>
+  <EntityType Name="SubscriptionType">
+    <Key>
+      <PropertyRef Name="subTypeId" />
+    </Key>
+    <Property Name="subTypeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="subscriptionType1" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="farm_Subscription" Relationship="petermanModel.FK_farm_Subscription_SubscriptionType" FromRole="SubscriptionType" ToRole="farm_Subscription" />
+  </EntityType>
+  <Association Name="FK_farm_Subscription_SubscriptionType">
+    <End Type="petermanModel.SubscriptionType" Role="SubscriptionType" Multiplicity="1" />
+    <End Type="petermanModel.farm_Subscription" Role="farm_Subscription" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SubscriptionType">
+        <PropertyRef Name="subTypeId" />
+      </Principal>
+      <Dependent Role="farm_Subscription">
+        <PropertyRef Name="subTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+    <End Type="petermanModel.AspNetUser" Role="AspNetUser" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="petermanModel.AspNetUserLogin" Role="AspNetUserLogin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserLogin">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
   </Association>
 </Schema>

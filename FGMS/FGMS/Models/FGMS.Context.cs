@@ -42,6 +42,7 @@ namespace FGMS.Models
         public virtual DbSet<Farm> Farms { get; set; }
         public virtual DbSet<Payment> Payments { get; set; }
         public virtual DbSet<AspNetUser> AspNetUsers { get; set; }
+        public virtual DbSet<SubscriptionType> SubscriptionTypes { get; set; }
     
         public virtual int Usp_CreateFarm_Address_Payment_Subscription(Nullable<int> addressId, string lastName, string firstName, string street, string city, string state, string zip, Nullable<int> farmId, string farmName, Nullable<double> acerage, string scrapieFlockId, Nullable<int> paymentId, string cardHolderName, string cardType, string cardNumber, string cvn, string pStreet, string pCity, string pState, string pZip, string operatorId, Nullable<System.DateTime> startDate, Nullable<System.DateTime> endDate)
         {
@@ -182,6 +183,15 @@ namespace FGMS.Models
                 new ObjectParameter("FarmName", typeof(string));
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Nullable<int>>("usp_GetFarmIdByFarmName", farmNameParameter);
+        }
+    
+        public virtual ObjectResult<Nullable<int>> usp_GetFarmIdByUserId(string userId)
+        {
+            var userIdParameter = userId != null ?
+                new ObjectParameter("UserId", userId) :
+                new ObjectParameter("UserId", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Nullable<int>>("usp_GetFarmIdByUserId", userIdParameter);
         }
     }
 }

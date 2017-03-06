@@ -15,10 +15,10 @@
             @Html.DisplayNameFor(model => model.StartDate)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.EndDate)
+            @Html.DisplayNameFor(model => model.Farm.FarmName)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Farm.FarmName)
+            @Html.DisplayNameFor(model => model.SubscriptionType.subscriptionType1)
         </th>
         <th></th>
     </tr>
@@ -29,10 +29,10 @@
             @Html.DisplayFor(modelItem => item.StartDate)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.EndDate)
+            @Html.DisplayFor(modelItem => item.Farm.FarmName)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Farm.FarmName)
+            @Html.DisplayFor(modelItem => item.SubscriptionType.subscriptionType1)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.subscriptionId }) |
